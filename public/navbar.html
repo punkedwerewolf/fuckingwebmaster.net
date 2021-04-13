@@ -1,0 +1,65 @@
+<script src="https://yesterwebring.neocities.org/script.js"></script>
+   <style>
+  :root {
+  --mybg: rgba(000,000,000,0.7);
+  --myborder:1px solid limeGreen;
+  --mycolor:#fff;
+  --mylinkcolor:limeGreen;
+  --mytitle:limeGreen;
+  --fontfamily:'pixelated_times_new_romanRg';
+  --titlesize:45px;
+  --borderradius:0px;
+  --bgcolor: rgba(000,000,000,0.7);
+  --mywidth: 170px;
+  --myheight: 170px;
+  --textsize:16px;
+  --textfamily:'fivepx';
+  --padding:20px;
+  --h1margin:5px;
+  --textmargin:5px;
+  --lineheight:45px;
+}
+</style>
+
+<h1>navigation</h1>
+<br><br>
+<ul class="navlist">
+
+  <li><a href="/home.html">home</a></li>
+  <li><a href="/about.html">about</a></li>
+  <li><a href="/links.html">links</a></li>
+  <li><a href="/shrines.html">shrines</a></li>
+  <li><a href="/journal.html">journal</a></li>
+  <li><a href="/siteindex.html">index</a></li>
+  
+</ul>
+<br><br>
+<p class="blink_me">follow my neocities...</p>
+<br>
+<a href="https://neocities.org/site/fuckingwebmaster"><img title="made by corq.neocities.org" src="/images/buttons/fuckingbutton.gif"></a>
+ <br><br>
+  <p>you are visitor #<a href="https://neocities.org/site/fuckingwebmaster/stats"><span style="background-color:rgba(000,000,000,000);color:white;" id="hitcount"></span></a></p>
+  
+<script>
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      var site_data = JSON.parse(this.responseText);
+      var num_arr = site_data.info.views.toString().split("");
+      var num_str = "";
+      for (i = 0; i < num_arr.length; i++) {
+        num_str += num_arr[i];
+        if ( (num_arr.length-1 - i) % 3 == 0 && (num_arr.length-1 - i) != 0 ) {num_str += ",";}
+      }
+      document.getElementById("hitcount").innerHTML = num_str;
+    }
+  };
+  xhttp.open("GET", "https://weirdscifi.ratiosemper.com/neocities.php?sitename=fuckingwebmaster", true);
+  xhttp.send();
+</script>
+<br><br>
+<p><a href="http://fuckingwebmaster.123Guestbook.com/" target="_blank">shoot me a message</a></p>
+<br><br>
+<div style="margin:auto; width:292px;">
+  <webring-css site="https://fuckingwebmaster.neocities.org/"></webring-css>
+  </div>

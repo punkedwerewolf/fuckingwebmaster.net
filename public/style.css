@@ -1,0 +1,440 @@
+ /*cursor shit*/
+ 
+* {
+   cursor: url('/images/autocur.png'), auto;
+}
+
+body {
+   cursor: url('/images/autocur.png'), auto;
+}
+
+a, a:hover {
+  cursor: url('/images/linkcur.png'), auto;
+}
+
+img>a:hover {
+  cursor: url('/images/linkcur.png'), auto;
+}
+
+p, span, h1, h2, h3, h4, h5, h6, pre, s, del, li {
+  cursor: url('/images/textcur.png'), auto;
+}
+  
+/*font shit*/
+
+@font-face {
+    font-family: 'pixelated_times_new_romanRg';
+    src: url('pixelated-times-new-roman-webfont.woff2') format('woff2'),
+         url('pixelated-times-new-roman-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* this is called a CSS reset, it removes default styles from your page */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 50px;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+/*meat and potatoes*/
+
+html {
+  font-size: 50px; 
+}
+
+body {
+	margin: 0;
+	background-color: #000000;
+	font-family: 'pixelated_times_new_romanRg';
+	color: #ffffff;
+	background-image: url('images/bgs/helloneo.gif');
+  background-repeat: repeat;
+  background-attachment: fixed;
+	background-size: 13%;
+	height: 100%;
+	font-size: 50px;
+	line-height: 50px;
+		padding: 0 2rem;
+}
+
+#main {
+  margin-left: auto;
+	margin-right: auto;
+	padding-left: 5%;
+	padding-right: 5%;
+	letter-spacing: 1.5px;
+	line-height: 22px;
+	margin-top: 1%;
+}
+
+#navbar {
+  height: 100%;
+  width: 15%;
+  text-align: center;
+  background-color: rgba(000, 000, 000, 0.7);
+}
+
+#mainshit {
+  float: left;
+  width: 72%;
+  color: white;
+  text-align: center;
+  background-color: rgba(000, 000, 000, 0.7);
+  margin-bottom: 50px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+  
+}
+
+#footer {
+  float: left;
+  color: white;
+  width: 72%;
+  text-align: center;
+  background-color: rgba(000, 000, 000, 0.7);
+  padding: 20px;
+}
+
+#main>nav {
+  float: right;
+  font-size: 15px;
+  padding-top:50px;
+  padding-left:25px;
+  padding-right:25px;
+  padding-bottom:50px;
+}
+
+footer, nav {
+	padding: 0;
+	line-height: 25px;
+	font-weight: normal;
+	font-family: 'pixelated_times_new_romanRg';
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.msg {
+  border: 4px limeGreen double;
+  padding: 20px;
+  margin: 30px;
+  text-align: center;
+  background-color: rgba(000,000,000,0.7);
+}  
+
+/*about me layout*/
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 5px 5px;
+  grid-template-areas:
+    "left middletop middletop middletop links pfp pfp"
+    "left middletop middletop middletop links pfp pfp"
+    "left middletop middletop middletop under under under"
+    "left middletop middletop middletop right right right"
+    "left middlebottom middlebottom middlebottom right right right"
+    "left middlebottom middlebottom middlebottom right right right";
+}
+
+.pfp { 
+  grid-area: pfp; 
+  background-color: rgba(000,000,000,0.7);
+  border: solid 4px limeGreen;
+  padding: 10px;
+}
+
+.links { 
+  grid-area: links;
+  background-color: rgba(000,000,000,0.7);
+  border: solid 4px limeGreen;
+  padding: 10px;
+}
+
+.under { 
+  grid-area: under; 
+  background-color: rgba(000,000,000,0.7);
+  border: solid 4px limeGreen;
+  padding: 10px;
+}
+
+.left { 
+  grid-area: left; 
+  background-color: rgba(000,000,000,0.7);
+  border: solid 4px limeGreen;
+  padding: 10px;
+}
+
+.middletop { 
+  grid-area: middletop; 
+  background-color: rgba(000,000,000,0.7);
+  border: solid 4px limeGreen;
+  padding: 10px;
+}
+
+.middlebottom { 
+  grid-area: middlebottom; 
+  background-color: rgba(000,000,000,0.7);
+  border: solid 4px limeGreen;
+  padding: 10px;
+}
+
+.right { 
+  grid-area: right; 
+  background-color: rgba(000,000,000,0.7);
+  border: solid 4px limeGreen;
+  padding: 10px;
+}
+
+/* This lets you use div class="column left" and "column right" for two columns */
+
+.leftdiv {
+	width: 45%;
+	float: left;
+}
+
+.rightdiv {
+	width: 45%;
+	float: right;
+}
+
+/*site index stuff*/
+
+.sublist { 
+  color:white !important;
+  text-indent: 50px;
+}
+      
+.subsub {
+  text-indent: 80px;
+}
+
+/*makes the text tilt*/
+
+.third-degree {
+    -webkit-transform: rotate(3deg);
+    -moz-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+    transform: rotate(3deg);
+    line-height: 130px;
+    display: inline-block;
+    position: relative;
+    
+}
+
+.third-degree-neg {
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+    line-height: 130px;
+    display: inline-block;
+    position: relative;
+    
+}
+
+/* Scrollbar Styling */
+
+::-webkit-scrollbar {
+	width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: limeGreen;
+}
+
+/*for some kind of blinking animation */
+
+.blink_me {
+	animation: blinker 1.5s linear infinite;
+}
+
+@keyframes blinker {
+	50% {
+		opacity: 0;
+	}
+}
+
+/* Table Styling */
+
+table {
+	width: 80%;
+	font-size: 30px;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+tr:nth-child(even) {
+	background-color: limeGreen;
+}
+
+td {
+	padding: 10px;
+}
+
+/*graphics styles*/
+
+.buttons img {
+  margin: 3px; 
+}
+
+.blinkies img {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/*misc styles*/
+
+strong {
+  font-weight: normal;
+  color: limeGreen;
+  font-size: 35px;
+}
+
+summary {
+  font-size: 35px; 
+}
+
+li {
+  margin: 10px;
+  font-size: 35px;
+}
+
+span {
+  font-size: 35px;
+  background-color: limeGreen;
+  color: black;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+h2 {
+  font-size: 65px;
+}
+
+h3 {
+  font-size: 60px;
+}
+
+h4 {
+  font-size: 55px;
+}
+
+h5 {
+  font-size: 50px;
+}
+
+h5 {
+  font-size: 45px;
+}
+
+p { 
+  font-size: 35px;
+}
+
+a {
+	color: limeGreen;
+	font-weight:normal;
+}
+
+a:hover {
+ color: Green;
+ font-weight: normal;
+ text-decoration: none;
+}
+
+a:link, a:visited, a:active {
+  text-decoration: none; 
+}
+
+ul {
+    list-style-type: none;
+}
+
+::selection {
+  background: limeGreen;
+  color: black;
+}
+
+/* All stuff below here is for viewing your site on different devices */
+
+@media screen and (max-width: 1536px) {
+    #main {
+	zoom: 70%;
+}
+}
+
+@media screen and (max-width: 1440px) {
+    #main {
+	zoom: 65%;
+}
+}
+
+@media screen and (max-width: 1366px) {
+    #main {
+	zoom: 60%;
+}
+}
+
+@media screen and (max-width: 1280px) {
+    #main {
+	zoom: 55%;
+}
+}
+
+@media screen and (max-width: 1024px) {
+    #main {
+	zoom: 50%;
+}
+}
+
+@media screen and (max-width: 992px) {
+    #main {
+	zoom: 45%;
+}
+}
+
+@media screen and (max-width: 800px) {
+    #main {
+	zoom: 40%;
+}
+}
+
+@media screen and (max-width: 600px) {
+  #main {
+	zoom: 35%;
+}
+}
