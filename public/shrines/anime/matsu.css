@@ -167,55 +167,11 @@ body {
 	grid-area: content; 
 }
 
-
-/* This lets you use div class="column left" and "column right" for two columns */
-
-.leftdiv {
-	width: 45%;
-	float: left;
-}
-
-.rightdiv {
-	width: 45%;
-	float: right;
-}
-
-/*makes the text tilt*/
-
-.third-degree {
-    -webkit-transform: rotate(3deg);
-    -moz-transform: rotate(3deg);
-    -ms-transform: rotate(3deg);
-    -o-transform: rotate(3deg);
-    transform: rotate(3deg);
-    
-    display: inline-block;
-    position: relative;
-    
-}
-
-.third-degree-neg {
-    -webkit-transform: rotate(-3deg);
-    -moz-transform: rotate(-3deg);
-    -ms-transform: rotate(-3deg);
-    -o-transform: rotate(-3deg);
-    transform: rotate(-3deg);
-    
-    display: inline-block;
-    position: relative;
-    
-}
-
 /* Scrollbar Styling */
 
 ::-webkit-scrollbar {
-	width: 6px;
+	width: 0px;
 }
-
-::-webkit-scrollbar-thumb {
-	background: #D95030;
-}
-
 /*for some kind of blinking animation */
 
 .blink_me {
