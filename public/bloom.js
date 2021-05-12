@@ -1,4 +1,4 @@
  $(function(){
-      $("#boardNavDesktop").load("/navbar.html");
-      $("#blotter").load("/blotter.html");
+      $document.getElementById("#boardNavDesktop").load("/navbar.html");
+      $document.getElementById("#blotter").load("/blotter.html");
     });
