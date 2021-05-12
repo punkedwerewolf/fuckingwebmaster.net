@@ -212,7 +212,8 @@ br.clear-bug {
 	border: 1px solid;
 	zoom: 100%;
 	margin-bottom: .5em;
-	padding-bottom: .5em
+	padding-bottom: .5em;
+	width: 750px;
 }
 
 .boxbar {
