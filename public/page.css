@@ -87,4 +87,7 @@ hr {
     overflow: hidden;
     border-style: inset;
     border-width: 1px;
+	border: none;
+    border-top: 1px solid #b7c5d9;
+    height: 0;
 }
