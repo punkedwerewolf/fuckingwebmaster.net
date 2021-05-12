@@ -70,6 +70,13 @@ hr.abovePostForm {
     font-size: 11px;
 }
 
+.aboveMidAd {
+    width: 468px;
+    max-width: 100%;
+}
+
+/* hr */
+
 hr {
     display: block;
     unicode-bidi: isolate;

@@ -1,3 +1,4 @@
  $(function(){
-      $("#copyright").load("/footer.html");
+      $("#boardNavDesktop").load("/navbar.html");
+      $("#blotter").load("/blotter.html");
     });
