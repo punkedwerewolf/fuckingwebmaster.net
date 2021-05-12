@@ -37,6 +37,10 @@ body {
     display: block;
 }
 
+#navtopright, #navbotright {
+    float: right;
+}
+
 /* banner */
 
 .boardBanner {
