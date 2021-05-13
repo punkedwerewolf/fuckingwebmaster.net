@@ -95,3 +95,16 @@ hr {
     border-top: 1px solid #b7c5d9;
     height: 0;
 }
+
+/* post stuff */
+
+#button {
+	float: left;
+}
+
+.post img{
+  width:200px;
+}
+.post img:hover{
+  zoom: 150%;
+}
