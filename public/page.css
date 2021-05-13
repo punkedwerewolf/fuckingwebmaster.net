@@ -102,9 +102,9 @@ hr {
 	float: left;
 }
 
-.post img{
+img .post{
   width:200px;
 }
-.post img:hover{
+img:hover .post {
   zoom: 150%;
 }
