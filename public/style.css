@@ -446,7 +446,7 @@ html {
 }
 
 body {
-	background: #ffe url(/images/bgs/fade.png) top repeat-x 100% 100%;
+	background: #ffe url(/images/bgs/fade.png) top repeat-x;
 	color: #800
 }
 

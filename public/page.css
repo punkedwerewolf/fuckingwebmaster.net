@@ -5,7 +5,7 @@ html {
 }
 
 body {
-	background: #eef2ff url(/images/bgs/fade-blue.png) top center repeat-x;
+	background: #eef2ff url('/images/bgs/fade-blue.png') top repeat-x;
 	color: #000;
 	font-family: arial, helvetica, sans-serif;
 	font-size: 10pt;
