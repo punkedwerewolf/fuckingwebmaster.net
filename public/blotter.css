@@ -251,14 +251,6 @@ footer li a:hover {
 	color: #c63
 }
 
-.current-page {
-	background-color: #ffe;
-	border-top: 1px solid #ffe;
-	padding-bottom: 3px;
-	position: relative;
-	top: -1px
-}
-
 #copyright {
 	text-align: center;
 	margin-top: 25px;
