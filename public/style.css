@@ -134,6 +134,23 @@ body {
 /* navbar styles */
 
 /* animations */
+#flip {
+	animation: flip 1s infinite linear;
+}
+
+@keyframes flip {
+	0% {
+		transform: rotateY(180deg);
+	}
+	
+	50% {
+		transform: rotateY(-180deg);
+	}
+	
+	100% {
+		transform: rotateY(180deg);
+	}
+}
 
 #logo {
   animation: tilt 1s infinite linear;
