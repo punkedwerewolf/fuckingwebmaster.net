@@ -283,7 +283,12 @@ a:link, a:visited, a:active {
   color: #3c2b1b;
 }
 
-hr {
+#msg {
+	width: 60%;
+	overflow-x: hidden;
+}
+
+#msg hr {
 	border: .5px solid #3c2b1b;
 }
 
