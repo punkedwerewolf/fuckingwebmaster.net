@@ -191,6 +191,11 @@ body::before {
 
 /* misc styles */
 
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
 /* All stuff below here is for viewing your site on different devices */
 
 @media screen and (max-width: 1536px) {
