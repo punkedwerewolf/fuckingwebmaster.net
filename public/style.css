@@ -137,15 +137,15 @@ body {
 
 #logo {
   display: inline-block;
-  animation: tilt 2s infinite linear;
+  animation: tilt 1s infinite linear;
 }
 
 @keyframes tilt {
   50% {
-    transform: rotate(50deg);
+    transform: rotate(15deg);
   }
   100% {
-    transform: rotate(0deg);
+    transform: rotate(-15deg);
   }
 }
 
