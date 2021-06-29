@@ -33,7 +33,6 @@ footer, header, hgroup, menu, nav, section {
     src: url('/fonts/gamer.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
@@ -41,7 +40,6 @@ footer, header, hgroup, menu, nav, section {
     src: url('/fonts/pixelflag.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-
 }
 
 /* cursor shit */
@@ -50,7 +48,7 @@ footer, header, hgroup, menu, nav, section {
    cursor: url('/images/cur.png'), auto;
 }
 
-body {
+body, html {
    cursor: url('/images/cur.png'), auto;
 }
 
