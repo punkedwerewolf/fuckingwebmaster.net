@@ -220,6 +220,10 @@ body::before {
 	font-size: 50%;
 }
 
+.flag {
+	font-family: pixelflag;
+}
+
 /* All stuff below here is for viewing your site on different devices */
 
 @media screen and (max-width: 1536px) {
