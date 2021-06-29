@@ -78,10 +78,12 @@ body {
 #everything {
 	display: flex;
 	margin: 30px 150px;
-	border: 3px red solid;
+	padding: 30px;
 	height auto;
 	width: auto;
 	text-align: center;
+	border: 10px solid transparent;
+	border-image: url(/images/index/bulletborder.png) 30 round;
 }
 
 /* navbar styles */
