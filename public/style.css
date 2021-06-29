@@ -33,7 +33,7 @@ footer, header, hgroup, menu, nav, section {
 body {
     animation-name: attract;
     animation-iteration-count: infinite;
-    animation-duration: 3s;
+    animation-duration: 6s;
     animation-timing-function: linear;
     background-image: url('/images/bgs/gunbg.png');
 }
