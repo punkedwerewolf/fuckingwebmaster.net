@@ -262,19 +262,19 @@ body::before {
 }
 
 a {
-	color: #c2c1ba;
+	color: #b5b4ae;
 	font-weight:normal;
 }
 
 a:hover {
- color: #c2c1ba;
+ color: #b5b4ae;
  font-weight: normal;
  text-decoration: none;
 }
 
 a:link, a:visited, a:active {
   text-decoration: none; 
-  color: #c2c1ba;
+  color: #b5b4ae;
 }
 
 
