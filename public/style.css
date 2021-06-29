@@ -81,7 +81,35 @@ body {
 	padding: 30px;
 	height auto;
 	width: auto;
-	text-align: center;
+	justify-content: center;
+}
+
+#main {
+	background-color: #847c7c;
+	padding: 30px 20px;
+	margin: 0px 5px;
+	width: 50%;
+	height: auto;
+}
+
+#left {
+	background-color: #847c7c;
+	padding: 30px 20px;
+	margin: 0px 5px;
+	width: 20%;
+	height: auto;
+	border: 15px solid transparent;
+	border-image-source: url(/images/index/bulletborder.png);
+	border-image-repeat: round;
+	border-image-slice: 30;
+}
+
+#right {
+	background-color: #847c7c;
+	padding: 30px 20px;
+	margin: 0px 5px;
+	width: 20%;
+	height: auto;
 	border: 15px solid transparent;
 	border-image-source: url(/images/index/bulletborder.png);
 	border-image-repeat: round;
