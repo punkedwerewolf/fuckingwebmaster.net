@@ -155,7 +155,7 @@ body {
 #logo {
   animation: tilt 1s infinite linear;
   font-size: 200%;
-  -webkit-text-stroke: 2px #acaba4;
+  -webkit-text-stroke: 1px #acaba4;
 }
 
 #logo1 {
