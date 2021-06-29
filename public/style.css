@@ -37,7 +37,7 @@ footer, header, hgroup, menu, nav, section {
 
 @font-face {
     font-family: 'pixelflag';
-    src: url('/fonts/pixelflag.ttf') format('truetype');
+    src: url('/fonts/fontpixelflag.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
