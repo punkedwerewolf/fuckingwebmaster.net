@@ -90,6 +90,8 @@ body {
 	margin: 0px 5px;
 	width: 50%;
 	height: auto;
+	order: 2;
+	word-wrap: break-word;
 }
 
 #left {
@@ -102,6 +104,8 @@ body {
 	border-image-source: url(/images/index/bulletborder.png);
 	border-image-repeat: round;
 	border-image-slice: 30;
+	order: 1;
+	word-wrap: break-word;
 }
 
 #right {
@@ -114,6 +118,8 @@ body {
 	border-image-source: url(/images/index/bulletborder.png);
 	border-image-repeat: round;
 	border-image-slice: 30;
+	order: 3;
+	word-wrap: break-word;
 }
 
 /* navbar styles */
