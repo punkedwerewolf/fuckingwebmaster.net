@@ -135,7 +135,7 @@ body {
 
 /* animations */
 #flip {
-	animation: flip 1s infinite linear;
+	animation: flip 3s infinite linear;
 }
 
 @keyframes flip {
