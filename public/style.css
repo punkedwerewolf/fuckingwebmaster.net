@@ -88,7 +88,7 @@ body {
 	background-color: #847c7c;
 	padding: 30px 20px;
 	margin: 0px 5px;
-	width: 50%;
+	width: 65%;
 	height: auto;
 	order: 2;
 	word-wrap: break-word;
@@ -98,7 +98,7 @@ body {
 	background-color: #847c7c;
 	padding: 30px 20px;
 	margin: 0px 5px;
-	width: 20%;
+	width: 10%;
 	height: auto;
 	border: 15px solid transparent;
 	border-image-source: url(/images/index/bulletborder.png);
@@ -112,7 +112,7 @@ body {
 	background-color: #847c7c;
 	padding: 30px 20px;
 	margin: 0px 5px;
-	width: 20%;
+	width: 10%;
 	height: auto;
 	border: 15px solid transparent;
 	border-image-source: url(/images/index/bulletborder.png);
