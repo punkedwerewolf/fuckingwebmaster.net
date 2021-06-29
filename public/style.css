@@ -136,8 +136,11 @@ body {
 /* animations */
 
 #logo {
-  display: inline-block;
-  animation: tilt 1s infinite linear, pulse 1s infinite linear;
+  animation: tilt 1s infinite linear;
+}
+
+#logo1 {
+  animation: pulse 1s infinite linear;
 }
 
 @keyframes tilt {
