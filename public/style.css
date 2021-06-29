@@ -91,7 +91,7 @@ body {
 	width: 50%;
 	height: auto;
 	order: 2;
-	word-wrap: break-word;
+	flex-wrap: wrap;
 }
 
 #left {
@@ -105,7 +105,7 @@ body {
 	border-image-repeat: round;
 	border-image-slice: 30;
 	order: 1;
-	word-wrap: break-word;
+	flex-wrap: wrap;
 }
 
 #right {
@@ -119,7 +119,7 @@ body {
 	border-image-repeat: round;
 	border-image-slice: 30;
 	order: 3;
-	word-wrap: break-word;
+	flex-wrap: wrap;
 }
 
 /* navbar styles */
