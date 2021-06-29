@@ -89,7 +89,9 @@ body {
 	padding: 30px 20px;
 	margin: 0px 5px;
 	width: 60%;
-	height: auto;
+	height: -moz-fit-content;
+	height: -webkit-fit-content;
+	height: -fit-content;
 	order: 2;
 	word-wrap: break-word;
 	box-sizing: border-box;
@@ -100,7 +102,9 @@ body {
 	padding: 30px 20px;
 	margin: 0px 5px;
 	width: 15%;
-	height: auto;
+	height: -moz-fit-content;
+	height: -webkit-fit-content;
+	height: -fit-content;
 	border: 15px solid transparent;
 	border-image-source: url(/images/index/bulletborder.png);
 	border-image-repeat: round;
@@ -115,7 +119,9 @@ body {
 	padding: 30px 20px;
 	margin: 0px 5px;
 	width: 15%;
-	height: auto;
+	height: -moz-fit-content;
+	height: -webkit-fit-content;
+	height: -fit-content;
 	border: 15px solid transparent;
 	border-image-source: url(/images/index/bulletborder.png);
 	border-image-repeat: round;
