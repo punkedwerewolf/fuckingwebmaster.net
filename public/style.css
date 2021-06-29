@@ -196,6 +196,10 @@ body::before {
 	margin-right: auto;
 }
 
+.tiny {
+	font-size: 50%;
+}
+
 /* All stuff below here is for viewing your site on different devices */
 
 @media screen and (max-width: 1536px) {
