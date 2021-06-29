@@ -82,9 +82,10 @@ body {
 	height auto;
 	width: auto;
 	text-align: center;
-	border: 10px solid transparent;
-	border-image: url(/images/index/bulletborder.png) 30 round;
-	border-image-repeat: repeat;
+	border: 15px solid transparent;
+	border-image-source: url(/images/index/bulletborder.png);
+	border-image-repeat: round;
+	border-image-slice: 30;
 }
 
 /* navbar styles */
