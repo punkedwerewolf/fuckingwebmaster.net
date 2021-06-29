@@ -28,6 +28,37 @@ footer, header, hgroup, menu, nav, section {
 
 /* font shit */
 
+@font-face {
+    font-family: 'gamer';
+    src: url('/fonts/gamer.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'pixelflag';
+    src: url('/fonts/pixelflag.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* cursor shit */
+
+* {
+   cursor: url('/images/cur.png'), auto;
+}
+
+body {
+   cursor: url('/images/cur.png'), auto;
+}
+
+a, a:hover {
+  cursor: url('/images/link.png'), auto;
+}
+
+
 /* the The main stuff */
 
 body {
@@ -36,6 +67,14 @@ body {
     animation-duration: 11s;
     animation-timing-function: linear;
     background-image: url('/images/bgs/gunbg.png');
+}
+
+body {
+	font-family: 'cherish';
+	color: #1c0812;
+	font-size: 17px;
+	line-height: 20px;
+	text-align: center;
 }
 
 /* navbar styles */
