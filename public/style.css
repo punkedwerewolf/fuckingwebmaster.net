@@ -84,6 +84,7 @@ body {
 	text-align: center;
 	border: 10px solid transparent;
 	border-image: url(/images/index/bulletborder.png) 30 round;
+	border-image-repeat: repeat;
 }
 
 /* navbar styles */
