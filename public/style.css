@@ -137,6 +137,7 @@ body {
 
 #logo {
   animation: tilt 1s infinite linear;
+  font-size: 200%;
 }
 
 #logo1 {
