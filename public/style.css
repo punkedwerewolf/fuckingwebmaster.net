@@ -198,6 +198,7 @@ body::before {
 
 .tiny {
 	font-size: 50%;
+	zoom: 60%;
 }
 
 /* All stuff below here is for viewing your site on different devices */
