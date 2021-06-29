@@ -30,14 +30,14 @@ footer, header, hgroup, menu, nav, section {
 
 @font-face {
     font-family: 'gamer';
-    src: url('/fonts/fontgamer.ttf') format('truetype');
+    src: url('/fonts/gamer.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'pixelflag';
-    src: url('/fonts/fontpixelflag.ttf') format('truetype');
+    src: url('/fonts/pixelflag.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
