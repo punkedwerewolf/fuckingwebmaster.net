@@ -135,6 +135,20 @@ body {
 
 /* animations */
 
+#logo {
+  display: inline-block;
+  animation: tilt 2s infinite linear;
+}
+
+@keyframes tilt {
+  50% {
+    transform: rotate(50deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
 body::before {
     content: "";
     display: block;
