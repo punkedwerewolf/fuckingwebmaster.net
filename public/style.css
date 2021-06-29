@@ -30,7 +30,7 @@ footer, header, hgroup, menu, nav, section {
 
 @font-face {
     font-family: 'gamer';
-    src: url('/fonts/gamer.ttf') format('truetype');
+    src: url('/fonts/fontgamer.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
