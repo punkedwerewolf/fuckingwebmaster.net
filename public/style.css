@@ -286,6 +286,7 @@ a:link, a:visited, a:active {
 #msg {
 	width: 60%;
 	overflow-x: hidden;
+	margin: 0px auto;
 }
 
 #msg hr {
