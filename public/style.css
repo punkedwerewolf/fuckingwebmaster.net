@@ -185,7 +185,7 @@ body {
 
 /* animations */
 
-.shake img:hover {
+#shake img:hover {
   animation: shake 0.5s;
   animation-iteration-count: infinite;
 }
