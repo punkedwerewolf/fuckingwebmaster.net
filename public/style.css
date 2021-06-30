@@ -157,6 +157,21 @@ body {
 #left h3 {
 	font-family: 'pixelflag'; 
 }
+
+/* columns */
+
+.half {
+	width: 45%;
+	float: left;
+	margin: 0px 5px;
+}
+
+.third {
+	width: 30%;
+	float: left;
+	margin: 0px 5px;
+}
+
 /* animations */
 
 .blink {
