@@ -261,6 +261,16 @@ body::before {
 
 /* misc styles */
 
+.ump45:hover {
+	background:url('/images/animegirls/ump451.png') no-repeat;
+	background-size: 14% auto;
+}
+
+.ump9:hover {
+	background:url('/images/animegirls/ump91.png') no-repeat;
+	background-size: 15% auto;
+}
+
 .flag { 
 	font-family: 'pixelflag';
 }
