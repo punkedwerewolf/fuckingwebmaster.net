@@ -105,7 +105,7 @@ body {
 #main1 {
 	background-color: #847c7c;
 	padding: 30px 20px;
-	width: 100%;
+	width: initial;
 	height: auto;
 }
 
