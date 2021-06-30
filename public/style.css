@@ -81,7 +81,7 @@ body {
 }
 
 #everything {
-	grid-template-columns: 20% 50% 25%;
+	grid-template-columns: 20% 50% 27%;
 	grid-column-gap: 0px;
 	grid-row-gap: 0px;
 	min-width:900px;
