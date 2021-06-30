@@ -145,6 +145,15 @@ body {
 	font-family: 'pixelflag'; 
 }
 /* animations */
+
+.blink {
+	animation: blinker 1.5s linear infinite;
+}
+
+@keyframes blinker {
+	50% { opacity: 0; }
+}
+
 #flip {
 	animation: flip 3s infinite linear;
 }
@@ -251,6 +260,10 @@ body::before {
 }
 
 /* misc styles */
+
+.flag { 
+	font-family: 'pixelflag';
+}
 
 .center {
 	margin-left: auto;
