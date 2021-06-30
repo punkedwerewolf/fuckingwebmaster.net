@@ -160,14 +160,20 @@ body {
 
 /* columns */
 
+.flex {
+	display: flex;
+}
+
 .half {
 	width: 45%;
 	margin: 0px auto;
+	order: 1;
 }
 
 .third {
 	width: 30%;
 	margin: 0px auto;
+	order: 1;
 }
 
 /* animations */
