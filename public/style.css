@@ -261,22 +261,44 @@ body::before {
 
 /* misc styles */
 
+.ump45 {
+	background:url('/images/animegirls/ump45.png') no-repeat;
+	animation: flip 3s infinite linear;
+	position:fixed;
+	bottom:15px;
+	left:15px;
+	z-index:10;
+	width:14%;
+}
+
 .ump45:hover {
 	background:url('/images/animegirls/ump451.png') no-repeat;
 	animation: flip 3s infinite linear;
+	position:fixed;
+	bottom:15px;
+	left:15px;
+	z-index:10;
+	width:14%;
+}
+
+.ump9 {
+	background:url('/images/animegirls/ump9.png') no-repeat;
+	animation: flip 3s infinite linear;
+	position:fixed;
+	bottom:15px;
+	left:15px;
+	z-index:10;
+	width:15%;
 }
 
 .ump9:hover {
 	background:url('/images/animegirls/ump91.png') no-repeat;
 	animation: flip 3s infinite linear;
-}
-
-.ump45:hover img {
-	display: none;
-}
-
-.ump9:hover img {
-	display: none;
+	position:fixed;
+	bottom:15px;
+	left:15px;
+	z-index:10;
+	width:15%;
 }
 
 .flag { 
