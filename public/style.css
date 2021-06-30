@@ -293,6 +293,10 @@ body::before {
 
 /* misc styles */
 
+#hitcount {
+	font-family: stars;
+}
+
 .stars {
 	font-family: stars;
 }
