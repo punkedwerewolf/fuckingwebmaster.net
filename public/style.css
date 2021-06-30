@@ -42,6 +42,13 @@ footer, header, hgroup, menu, nav, section {
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'stars';
+    src: url('/fonts/stars.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* cursor shit */
 
 * {
@@ -129,6 +136,12 @@ body {
 	order: 3;
 	word-wrap: break-word;
 	box-sizing: border-box;
+}
+
+#footer {
+	width: 50%;
+	height: auto;
+	margin: 10px 0px;
 }
 
 /* navbar styles */
@@ -261,40 +274,8 @@ body::before {
 
 /* misc styles */
 
-.ump45 {
-	background:url('/images/animegirls/ump45.png') no-repeat;
-	position:fixed;
-	bottom:15px;
-	right:15px;
-	z-index:10;
-	background-size:14% auto;
-}
-
-.ump45:hover {
-	background:url('/images/animegirls/ump451.png') no-repeat;
-	position:fixed;
-	bottom:15px;
-	right:15px;
-	z-index:10;
-	background-size:14% auto;
-}
-
-.ump9 {
-	background:url('/images/animegirls/ump9.png') no-repeat;
-	position:fixed;
-	bottom:15px;
-	left:15px;
-	z-index:10;
-	background-size:15% auto;
-}
-
-.ump9:hover {
-	background:url('/images/animegirls/ump91.png') no-repeat;
-	position:fixed;
-	bottom:15px;
-	left:15px;
-	z-index:10;
-	background-size:15% auto;
+.stars {
+	font-family: stars;
 }
 
 .flag { 
