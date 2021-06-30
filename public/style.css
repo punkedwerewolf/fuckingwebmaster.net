@@ -263,27 +263,24 @@ body::before {
 
 .ump45 {
 	background:url('/images/animegirls/ump45.png') no-repeat;
-	animation: flip 3s infinite linear;
 	position:fixed;
 	bottom:15px;
-	left:15px;
+	right:15px;
 	z-index:10;
 	width:14%;
 }
 
 .ump45:hover {
 	background:url('/images/animegirls/ump451.png') no-repeat;
-	animation: flip 3s infinite linear;
 	position:fixed;
 	bottom:15px;
-	left:15px;
+	right:15px;
 	z-index:10;
 	width:14%;
 }
 
 .ump9 {
 	background:url('/images/animegirls/ump9.png') no-repeat;
-	animation: flip 3s infinite linear;
 	position:fixed;
 	bottom:15px;
 	left:15px;
@@ -293,7 +290,6 @@ body::before {
 
 .ump9:hover {
 	background:url('/images/animegirls/ump91.png') no-repeat;
-	animation: flip 3s infinite linear;
 	position:fixed;
 	bottom:15px;
 	left:15px;
