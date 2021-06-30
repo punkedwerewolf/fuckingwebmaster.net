@@ -98,8 +98,7 @@ body {
 #main1 {
 	background-color: #847c7c;
 	border:1px black solid;
-	padding-right:5px;
-	padding-left:5px;
+	padding: 20px 30px;
 }
 
 #left {
