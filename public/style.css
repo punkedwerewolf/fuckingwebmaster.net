@@ -139,9 +139,11 @@ body {
 }
 
 #footer {
-	width: 50%;
+	width: auto;
 	height: auto;
-	margin: 10px 0px;
+	margin: 10px auto;
+	padding: 5px;
+	background-color: #847c7c;
 }
 
 /* navbar styles */
