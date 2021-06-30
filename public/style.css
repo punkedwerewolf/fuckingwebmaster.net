@@ -86,7 +86,7 @@ body {
 	grid-row-gap: 0px;
 	min-width:900px;
 	display: grid;
-	margin:0 auto;
+	margin: 30px auto;
 	width:75%;
 }
 
@@ -107,7 +107,7 @@ body {
 	padding-right:5px;
 	padding-left:5px;
 	border: 15px solid transparent;
-	border-image-source: url(/INDEX/borders/1.png);
+	border-image-source: url(/images/index/bulletborder.png);
 	border-image-repeat: round;
 	background-color: #847c7c;
 	border-image-slice: 30;
@@ -118,7 +118,7 @@ body {
 	padding-right:5px;
 	padding-left:5px;
 	border: 15px solid transparent;
-	border-image-source: url(/INDEX/borders/1.png);
+	border-image-source: url(/images/index/bulletborder.png);
 	border-image-repeat: round;
 	background-color: #847c7c;
 	border-image-slice: 30;
