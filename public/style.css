@@ -163,13 +163,13 @@ body {
 .half {
 	width: 45%;
 	float: left;
-	margin: 0px 5px;
+	margin: 0px auto;
 }
 
 .third {
 	width: 30%;
 	float: left;
-	margin: 0px 5px;
+	margin: 0px auto;
 }
 
 /* animations */
