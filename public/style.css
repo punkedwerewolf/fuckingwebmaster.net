@@ -94,6 +94,9 @@ body {
 	padding-right:5px;
 	padding-left:5px;
 	padding-bottom:6px;
+	height: -moz-fit-content;
+	height: -webkit-fit-content;
+	height: -fit-content
 }
 #main1 {
 	background-color: #847c7c;
@@ -110,6 +113,9 @@ body {
 	border-image-repeat: round;
 	background-color: #847c7c;
 	border-image-slice: 30;
+	height: -moz-fit-content;
+	height: -webkit-fit-content;
+	height: -fit-content
 }
 
 #right {
@@ -121,6 +127,9 @@ body {
 	border-image-repeat: round;
 	background-color: #847c7c;
 	border-image-slice: 30;
+	height: -moz-fit-content;
+	height: -webkit-fit-content;
+	height: -fit-content
 }
 
 #banner {
