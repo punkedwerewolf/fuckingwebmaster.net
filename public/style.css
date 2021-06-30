@@ -106,9 +106,6 @@ body {
 	text-align:center;
 	padding-right:5px;
 	padding-left:5px;
-}
-
-#left div {
 	border: 15px solid transparent;
 	border-image-source: url(/INDEX/borders/1.png);
 	border-image-repeat: round;
@@ -120,9 +117,6 @@ body {
 	text-align:center;
 	padding-right:5px;
 	padding-left:5px;
-}
-
-#right div {
 	border: 15px solid transparent;
 	border-image-source: url(/INDEX/borders/1.png);
 	border-image-repeat: round;
