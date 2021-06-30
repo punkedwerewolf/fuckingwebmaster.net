@@ -72,83 +72,68 @@ body {
     animation-duration: 11s;
     animation-timing-function: linear;
     background-image: url('/images/bgs/gunbg.png');
-}
-
-body {
 	font-family: 'gamer';
 	color: #3c2b1b;
-	font-size: 25px;
+	font-size: 23px;
 	line-height: 30px;
 	text-align: center;
+	margin:0 auto;
 }
 
 #everything {
-	display: flex;
-	margin: 30px 150px;
-	padding: 30px;
-	height auto;
-	width: auto;
-	justify-content: center;
+	grid-template-columns: 20% 50% 30%;
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+	min-width:900px;
+	display: grid;
+	margin:0 auto;
+	width:75%;
 }
 
 #main {
-	margin: 0px 5px;
-	width: 56%;
-	height: -moz-fit-content;
-	height: -webkit-fit-content;
-	height: -fit-content;
-	order: 2;
-	word-wrap: break-word;
-	box-sizing: border-box;
+	padding-right:5px;
+	padding-left:5px;
+	padding-bottom:6px;
 }
-
 #main1 {
 	background-color: #847c7c;
-	padding: 30px 20px;
-	width: initial;
-	height: auto;
+	border:1px black solid;
+	padding-right:5px;
+	padding-left:5px;
 }
 
 #left {
-	background-color: #847c7c;
-	padding: 30px 20px;
-	margin: 0px 5px;
-	width: 15%;
-	height: -moz-fit-content;
-	height: -webkit-fit-content;
-	height: -fit-content;
+	text-align:center;
+	padding-right:5px;
+	padding-left:5px;
+}
+
+#left div {
 	border: 15px solid transparent;
-	border-image-source: url(/images/index/bulletborder.png);
+	border-image-source: url(/INDEX/borders/1.png);
 	border-image-repeat: round;
+	background-color: #847c7c;
 	border-image-slice: 30;
-	order: 1;
-	word-wrap: break-word;
-	box-sizing: border-box;
 }
 
 #right {
-	background-color: #847c7c;
-	padding: 30px 20px;
-	margin: 0px 5px;
-	width: 23%;
-	height: -moz-fit-content;
-	height: -webkit-fit-content;
-	height: -fit-content;
-	border: 15px solid transparent;
-	border-image-source: url(/images/index/bulletborder.png);
-	border-image-repeat: round;
-	border-image-slice: 30;
-	order: 3;
-	word-wrap: break-word;
-	box-sizing: border-box;
+	text-align:center;
+	padding-right:5px;
+	padding-left:5px;
 }
 
-#footer {
+#right div {
+	border: 15px solid transparent;
+	border-image-source: url(/INDEX/borders/1.png);
+	border-image-repeat: round;
+	background-color: #847c7c;
+	border-image-slice: 30;
+}
+
+#banner {
 	width: 60%;
 	height: auto;
-	margin: 10px auto;
-	padding: 5px;
-	background-color: #847c7c;
+	margin: 5px auto;
 }
 
 /* navbar styles */
