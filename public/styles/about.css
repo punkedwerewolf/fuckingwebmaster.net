@@ -166,7 +166,7 @@ body {
 .me { 
 	grid-area: me; 
 	border: 2px #3c2b1b dashed;
-	height: 17em;
+	height: 17.5em;
 }
 
 .topblurb { 
@@ -178,7 +178,7 @@ body {
 .leftblurb { 
 	grid-area: leftblurb; 
 	border: 2px #3c2b1b dashed;
-	height: 21.1em;
+	height: 21.7em;
 }
 
 .one { 
