@@ -150,10 +150,6 @@ body {
 	font-family: 'pixelflag'; 
 }
 
-#left h1 {
-	transform: rotate(-6deg); 
-}
-
 /* columns */
 
 .flex {
