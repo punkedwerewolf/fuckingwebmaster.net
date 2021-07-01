@@ -137,7 +137,11 @@ body {
 }
 
 .container {
+	border: 15px solid transparent;
+	border-image-source: url(/images/index/bulletborder.png);
+	border-image-repeat: round;
 	background-color: #847c7c;
+	border-image-slice: 30;
 	margin: auto;
 	display: grid;
 	grid-template-columns: repeat(10, 1fr);
