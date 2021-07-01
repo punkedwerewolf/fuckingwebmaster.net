@@ -113,8 +113,6 @@ body {
 	height: 17.5em;
 	overflow-x: hidden;
 	overflow-y: hidden;
-	justify-content: center; 
-	display: flex;
 }
 
 .topblurb { 
