@@ -137,12 +137,13 @@ body {
 }
 
 .container {
-  display: grid;
-  grid-template-columns: repeat(10, 1fr);
-  grid-template-rows: repeat(10, 1fr);
-  gap: 3px 3px;
-  grid-auto-flow: row;
-  grid-template-areas:
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(10, 1fr);
+	grid-template-rows: repeat(10, 1fr);
+	gap: 3px 3px;
+	grid-auto-flow: row;
+	grid-template-areas:
     "me me me topblurb topblurb topblurb topblurb topblurb topblurb topblurb"
     "me me me topblurb topblurb topblurb topblurb topblurb topblurb topblurb"
     "me me me topblurb topblurb topblurb topblurb topblurb topblurb topblurb"
@@ -155,21 +156,37 @@ body {
     "userbars userbars userbars userbars userbars userbars userbars userbars userbars userbars";
 }
 
-.me { grid-area: me; }
+.me { 
+	grid-area: me; 
+}
 
-.topblurb { grid-area: topblurb; }
+.topblurb { 
+	grid-area: topblurb; 
+}
 
-.leftblurb { grid-area: leftblurb; }
+.leftblurb { 
+	grid-area: leftblurb; 
+}
 
-.userbars { grid-area: userbars; }
+.userbars { 
+	grid-area: userbars; 
+}
 
-.two { grid-area: two; }
+.two { 
+	grid-area: two; 
+}
 
-.three { grid-area: three; }
+.three { 
+	grid-area: three; 
+}
 
-.four { grid-area: four; }
+.four { 
+	grid-area: four; 
+}
 
-.one { grid-area: one; }
+.one { 
+	grid-area: one; 
+}
 
 
 /* navbar styles */
