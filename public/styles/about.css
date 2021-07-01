@@ -165,6 +165,7 @@ body {
 .me { 
 	grid-area: me; 
 	border: 2px #3c2b1b dashed;
+	height: 25%;
 }
 
 .topblurb { 
