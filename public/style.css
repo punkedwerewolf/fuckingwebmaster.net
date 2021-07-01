@@ -151,7 +151,7 @@ body {
 }
 
 #left h1 {
-	transform: rotate(10deg); 
+	transform: rotate(-6deg); 
 }
 
 /* columns */
@@ -337,7 +337,7 @@ body *::-webkit-scrollbar-track {
   background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgLTAuNSAyIDIiIHNoYXBlLXJlbmRlcmluZz0iY3Jpc3BFZGdlcyI+CjxtZXRhZGF0YT5NYWRlIHdpdGggUGl4ZWxzIHRvIFN2ZyBodHRwczovL2NvZGVwZW4uaW8vc2hzaGF3L3Blbi9YYnh2Tmo8L21ldGFkYXRhPgo8cGF0aCBzdHJva2U9IiNjMGMwYzAiIGQ9Ik0wIDBoMU0xIDFoMSIgLz4KPC9zdmc+");
   background-position: 0 0;
   background-repeat: repeat;
-  background-size: 2px;
+  background-size: 4px;
 }
 
 body *::-webkit-scrollbar-button {
