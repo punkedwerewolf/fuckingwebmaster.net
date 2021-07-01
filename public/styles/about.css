@@ -167,18 +167,24 @@ body {
 	grid-area: me; 
 	border: 2px #3c2b1b dashed;
 	height: 17.5em;
+	overflow-x: hidden;
+	overflow-y: hidden;
 }
 
 .topblurb { 
 	grid-area: topblurb; 
 	border: 2px #3c2b1b dashed;
 	height: 13em;
+	overflow-x: hidden;
+	overflow-y: hidden;
 }
 
 .leftblurb { 
 	grid-area: leftblurb; 
 	border: 2px #3c2b1b dashed;
 	height: 21.8em;
+	overflow-x: hidden;
+	overflow-y: hidden;
 }
 
 .one { 
@@ -217,6 +223,8 @@ body {
 	grid-area: userbars; 
 	border: 2px #3c2b1b dashed;
 	height: 4em;
+	overflow-x: hidden;
+	overflow-y: hidden;
 }
 
 
