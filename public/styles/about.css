@@ -166,43 +166,43 @@ body {
 .me { 
 	grid-area: me; 
 	border: 2px #3c2b1b dashed;
-	height: 16em;
+	height: 17em;
 }
 
 .topblurb { 
 	grid-area: topblurb; 
 	border: 2px #3c2b1b dashed;
-	height: 12em;
+	height: 13em;
 }
 
 .leftblurb { 
 	grid-area: leftblurb; 
 	border: 2px #3c2b1b dashed;
-	height: 20.1em;
+	height: 21.1em;
 }
 
 .one { 
 	grid-area: one; 
 	border: 2px #3c2b1b dashed;
-	height: 12em;
+	height: 13em;
 }
 
 .two { 
 	grid-area: two; 
 	border: 2px #3c2b1b dashed;
-	height: 12em;
+	height: 13em;
 }
 
 .three { 
 	grid-area: three; 
 	border: 2px #3c2b1b dashed;
-	height: 12em;
+	height: 13em;
 }
 
 .four { 
 	grid-area: four; 
 	border: 2px #3c2b1b dashed;
-	height: 12em;
+	height: 13em;
 }
 
 .userbars { 
