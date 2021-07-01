@@ -165,42 +165,49 @@ body {
 .me { 
 	grid-area: me; 
 	border: 2px #3c2b1b dashed;
-	height: 10em;
+	height: 15em;
 }
 
 .topblurb { 
 	grid-area: topblurb; 
 	border: 2px #3c2b1b dashed;
+	height: 10em;
 }
 
 .leftblurb { 
 	grid-area: leftblurb; 
 	border: 2px #3c2b1b dashed;
+	height: 20em;
 }
 
 .one { 
 	grid-area: one; 
 	border: 2px #3c2b1b dashed;
+	height: 12em;
 }
 
 .two { 
 	grid-area: two; 
 	border: 2px #3c2b1b dashed;
+	height: 12em;
 }
 
 .three { 
 	grid-area: three; 
 	border: 2px #3c2b1b dashed;
+	height: 12em;
 }
 
 .four { 
 	grid-area: four; 
 	border: 2px #3c2b1b dashed;
+	height: 12em;
 }
 
 .userbars { 
 	grid-area: userbars; 
 	border: 2px #3c2b1b dashed;
+	height: 2em;
 }
 
 
