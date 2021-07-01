@@ -137,6 +137,7 @@ body {
 }
 
 .container {
+	background-color: #847c7c;
 	margin: auto;
 	display: grid;
 	grid-template-columns: repeat(10, 1fr);
@@ -158,34 +159,42 @@ body {
 
 .me { 
 	grid-area: me; 
+	border: 2px #3c2b1b dashed;
 }
 
 .topblurb { 
 	grid-area: topblurb; 
+	border: 2px #3c2b1b dashed;
 }
 
 .leftblurb { 
 	grid-area: leftblurb; 
-}
-
-.userbars { 
-	grid-area: userbars; 
-}
-
-.two { 
-	grid-area: two; 
-}
-
-.three { 
-	grid-area: three; 
-}
-
-.four { 
-	grid-area: four; 
+	border: 2px #3c2b1b dashed;
 }
 
 .one { 
 	grid-area: one; 
+	border: 2px #3c2b1b dashed;
+}
+
+.two { 
+	grid-area: two; 
+	border: 2px #3c2b1b dashed;
+}
+
+.three { 
+	grid-area: three; 
+	border: 2px #3c2b1b dashed;
+}
+
+.four { 
+	grid-area: four; 
+	border: 2px #3c2b1b dashed;
+}
+
+.userbars { 
+	grid-area: userbars; 
+	border: 2px #3c2b1b dashed;
 }
 
 
