@@ -408,13 +408,13 @@ audio::-webkit-media-controls-panel {
 	background-color: #aeaaa6;
 }
 
-.one, .two, .three, .four::-webkit-scrollbar {
+.one::-webkit-scrollbar, .two::-webkit-scrollbar, .three::-webkit-scrollbar, .four::-webkit-scrollbar {
   width: 16px;
   height: 16px;
   background: none;
 }
 
-.one, .two, .three, .four::-webkit-scrollbar-thumb, body *::-webkit-scrollbar-button {
+.one::-webkit-scrollbar-thumb, .two::-webkit-scrollbar-thumb, .three::-webkit-scrollbar-thumb, .four::-webkit-scrollbar-thumb, .one::-webkit-scrollbar-button, .two::-webkit-scrollbar-button, .three::-webkit-scrollbar-button, .four::-webkit-scrollbar-button {
   width: 16px;
   height: 16px;
   background: silver;
@@ -423,7 +423,7 @@ audio::-webkit-media-controls-panel {
   border-color: silver #000 #000 silver;
 }
 
-.one, .two, .three, .four::-webkit-scrollbar-track {
+.one::-webkit-scrollbar-track, .two::-webkit-scrollbar-track, .three::-webkit-scrollbar-track, .four::-webkit-scrollbar-track {
   image-rendering: optimizeSpeed;
   image-rendering: pixelated;
   image-rendering: optimize-contrast;
@@ -433,28 +433,28 @@ audio::-webkit-media-controls-panel {
   background-size: 2px;
 }
 
-.one, .two, .three, .four::-webkit-scrollbar-button {
+.one::-webkit-scrollbar-button, .two::-webkit-scrollbar-button, .three::-webkit-scrollbar-button, .four::-webkit-scrollbar-button {
   background-repeat: no-repeat;
   background-size: 16px;
 }
 
-.one, .two, .three, .four::-webkit-scrollbar-button:single-button:vertical:decrement {
+.one::-webkit-scrollbar-button:single-button:vertical:decrement, .two::-webkit-scrollbar-button:single-button:vertical:decrement, .three::-webkit-scrollbar-button:single-button:vertical:decrement, .four::-webkit-scrollbar-button:single-button:vertical:decrement {
   background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgLTAuNSAxNiAxNiIgc2hhcGUtcmVuZGVyaW5nPSJjcmlzcEVkZ2VzIj4KPG1ldGFkYXRhPk1hZGUgd2l0aCBQaXhlbHMgdG8gU3ZnIGh0dHBzOi8vY29kZXBlbi5pby9zaHNoYXcvcGVuL1hieHZOajwvbWV0YWRhdGE+CjxwYXRoIHN0cm9rZT0iIzAwMDAwMCIgZD0iTTcgNWgxTTYgNmgzTTUgN2g1TTQgOGg3IiAvPgo8L3N2Zz4=");
 }
 
-.one, .two, .three, .four::-webkit-scrollbar-button:single-button:vertical:increment {
+.one::-webkit-scrollbar-button:single-button:vertical:increment, .two::-webkit-scrollbar-button:single-button:vertical:increment, .three::-webkit-scrollbar-button:single-button:vertical:increment, .four::-webkit-scrollbar-button:single-button:vertical:increment {
   background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgLTAuNSAxNiAxNiIgc2hhcGUtcmVuZGVyaW5nPSJjcmlzcEVkZ2VzIj4KPG1ldGFkYXRhPk1hZGUgd2l0aCBQaXhlbHMgdG8gU3ZnIGh0dHBzOi8vY29kZXBlbi5pby9zaHNoYXcvcGVuL1hieHZOajwvbWV0YWRhdGE+CjxwYXRoIHN0cm9rZT0iIzAwMDAwMCIgZD0iTTQgNWg3TTUgNmg1TTYgN2gzTTcgOGgxIiAvPgo8L3N2Zz4=");
 }
 
-.one, .two, .three, .four::-webkit-scrollbar-button:single-button:horizontal:decrement {
+.one::-webkit-scrollbar-button:single-button:horizontal:decrement, .two::-webkit-scrollbar-button:single-button:horizontal:decrement, .three::-webkit-scrollbar-button:single-button:horizontal:decrement, .four::-webkit-scrollbar-button:single-button:horizontal:decrement {
   background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgLTAuNSAxNiAxNiIgc2hhcGUtcmVuZGVyaW5nPSJjcmlzcEVkZ2VzIj4KPG1ldGFkYXRhPk1hZGUgd2l0aCBQaXhlbHMgdG8gU3ZnIGh0dHBzOi8vY29kZXBlbi5pby9zaHNoYXcvcGVuL1hieHZOajwvbWV0YWRhdGE+CjxwYXRoIHN0cm9rZT0iIzAwMDAwMCIgZD0iTTggM2gxTTcgNGgyTTYgNWgzTTUgNmg0TTYgN2gzTTcgOGgyTTggOWgxIiAvPgo8L3N2Zz4=");
 }
 
-.one, .two, .three, .four::-webkit-scrollbar-button:single-button:horizontal:increment {
+.one::-webkit-scrollbar-button:single-button:horizontal:increment, .two::-webkit-scrollbar-button:single-button:horizontal:increment, .three::-webkit-scrollbar-button:single-button:horizontal:increment, .four::-webkit-scrollbar-button:single-button:horizontal:increment {
   background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgLTAuNSAxNiAxNiIgc2hhcGUtcmVuZGVyaW5nPSJjcmlzcEVkZ2VzIj4KPG1ldGFkYXRhPk1hZGUgd2l0aCBQaXhlbHMgdG8gU3ZnIGh0dHBzOi8vY29kZXBlbi5pby9zaHNoYXcvcGVuL1hieHZOajwvbWV0YWRhdGE+CjxwYXRoIHN0cm9rZT0iIzAwMDAwMCIgZD0iTTYgM2gxTTYgNGgyTTYgNWgzTTYgNmg0TTYgN2gzTTYgOGgyTTYgOWgxIiAvPgo8L3N2Zz4=");
 }
 
-.one, .two, .three, .four::-webkit-scrollbar-corner {
+.one::-webkit-scrollbar-corner, .two::-webkit-scrollbar-corner, .three::-webkit-scrollbar-corner, .four::-webkit-scrollbar-corner {
   background: silver;
 }
 
