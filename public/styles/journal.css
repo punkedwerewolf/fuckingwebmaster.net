@@ -80,6 +80,39 @@ body {
 	margin:0 auto;
 }
 
+#everything {
+	grid-template-columns: 25% 75%;
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+	min-width:820px;
+	display: grid;
+	margin: 30px auto;
+	width:75.9%;
+}
+
+#main {
+	height: -moz-fit-content;
+	height: -webkit-fit-content;
+	height: -fit-content;
+	background-image: url('/images/misc/topborder.png');
+	padding-top: 20px;
+	background-size: 100% 17px;
+	background-repeat: no-repeat;
+}
+
+#main1 {
+	background-color: #847c7c;
+	padding: 20px 30px;
+}
+
+#nav {
+	background-color: #847c7c;
+	border-right:1px black solid;
+	padding: 20px 30px;
+	height: 20%;
+	min-height: 350px;
+}
+
 /* navbar styles */
 
 #left ul {
