@@ -108,9 +108,6 @@ body {
 }
 
 #navi {
-	height: -moz-fit-content;
-	height: -webkit-fit-content;
-	height: -fit-content;
 	background-color: #847c7c;
 	border-right:1px black solid;
 	height: 20%;
@@ -131,24 +128,6 @@ body {
 
 #left h3 {
 	font-family: 'pixelflag'; 
-}
-
-/* columns */
-
-.flex {
-	display: flex;
-}
-
-.half {
-	width: 45%;
-	margin: 0px auto;
-	order: 1;
-}
-
-.third {
-	width: 30%;
-	margin: 0px auto;
-	order: 1;
 }
 
 /* animations */
@@ -376,13 +355,7 @@ a:link, a:visited, a:active {
   color: #3c2b1b;
 }
 
-#msg {
-	width: 60%;
-	overflow-x: hidden;
-	margin: 0px auto;
-}
-
-#msg hr {
+hr {
 	border: .5px solid #3c2b1b;
 }
 
