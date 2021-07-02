@@ -267,6 +267,10 @@ audio::-webkit-media-controls-panel {
 
 /* misc styles */
 
+ul {
+	list-style-type: none;
+}
+
 a.tip {
     border-bottom: 1px dashed;
     text-decoration: none
