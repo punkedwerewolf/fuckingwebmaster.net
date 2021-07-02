@@ -185,6 +185,10 @@ body {
 	display: flex;
 }
 
+#back {
+		margin: 20px auto;
+}
+
 
 /* navbar styles */
 
