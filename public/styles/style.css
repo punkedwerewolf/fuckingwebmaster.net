@@ -399,7 +399,7 @@ a:link, a:visited, a:active {
 	margin: 0px auto;
 }
 
-#msg hr {
+hr {
 	border: .5px solid #3c2b1b;
 }
 
