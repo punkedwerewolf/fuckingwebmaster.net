@@ -100,7 +100,10 @@ body {
 	height: -fit-content;
 	background-color: #847c7c;
 	padding: 20px 30px;
+	height: 80%;
+	min-height: 750px;
 	text-align: center;
+	
 }
 
 #navi {
