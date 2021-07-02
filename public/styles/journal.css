@@ -123,20 +123,6 @@ body {
 		margin: 20px auto;
 }
 
-/* navbar styles */
-
-#left ul {
-	list-style-type: none;
-}
-
-#left hr {
-	border: 1px solid #3c2b1b;
-}
-
-#left h3 {
-	font-family: 'pixelflag'; 
-}
-
 /* animations */
 
 .blink {
