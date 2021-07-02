@@ -88,19 +88,16 @@ body {
 	display: grid;
 	margin: 30px auto;
 	width:75.9%;
-}
-
-#main {
-	height: -moz-fit-content;
-	height: -webkit-fit-content;
-	height: -fit-content;
 	background-image: url('/images/misc/topborder.png');
-	padding-top: 20px;
+	padding-top: 17px;
 	background-size: 100% 17px;
 	background-repeat: no-repeat;
 }
 
 #main1 {
+	height: -moz-fit-content;
+	height: -webkit-fit-content;
+	height: -fit-content;
 	background-color: #847c7c;
 	padding: 20px 30px;
 }
