@@ -363,6 +363,10 @@ table, th, td {
 	border: solid 2px #3c2b1b;
 }
 
+th, td {
+	padding: 3px;
+}
+
 .likesdislikes {
 	display: inline-block;
 }
