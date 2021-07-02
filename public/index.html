@@ -35,20 +35,15 @@
   --headerbg: #696d54;
 }
       </style>
-	   <script type="text/javascript" language="javascript">
-    function funinit() {
-        alert("funinit");
+	   <script type="text/javascript">
+    function preloadFunc()
+    {
+        alert("this page contains autoplay music, animated elements, and vulgar language, if that isn't your cup of tea then GTFO");
     }
-    function funload() {
-        alert("funload");
-    }
-    function funRender() {
-        alert("funRender");
-    }      
-
+    window.onpaint = preloadFunc();
 </script>
    </head>
-   <body  oninit="funinit();" onprerender="funRender();" onload="funload();">
+   <body>
    
    <div class="audio">
   <div id="song"></div>
