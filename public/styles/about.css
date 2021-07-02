@@ -137,8 +137,6 @@ body {
 	height: 13em;
 	overflow-x: hidden;
 	overflow-y: scroll;
-	justify-content: center; 
-	display: flex;
 }
 
 .two { 
@@ -147,8 +145,6 @@ body {
 	height: 13em;
 	overflow-x: hidden;
 	overflow-y: scroll;
-	justify-content: center; 
-	display: flex;
 }
 
 .three { 
@@ -157,8 +153,6 @@ body {
 	height: 13em;
 	overflow-x: hidden;
 	overflow-y: scroll;
-	justify-content: center; 
-	display: flex;
 }
 
 .four { 
@@ -167,8 +161,6 @@ body {
 	height: 13em;
 	overflow-x: hidden;
 	overflow-y: scroll;
-	justify-content: center; 
-	display: flex;
 }
 
 .userbars { 
