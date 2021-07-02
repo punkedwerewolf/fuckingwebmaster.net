@@ -2,6 +2,7 @@
 
          let x = Math.floor(Math.random() * mySongs.length);
   var element = document.getElementById('myAudio');
+  var myDiv = document.getElementById('song');
 
 function songChooser(mySongs){
   return mySongs[x];
