@@ -80,62 +80,6 @@ body {
 	margin:0 auto;
 }
 
-#everything {
-	grid-template-columns: 19% 54% 27%;
-	grid-column-gap: 0px;
-	grid-row-gap: 0px;
-	min-width:900px;
-	display: grid;
-	margin: 30px auto;
-	width:75%;
-}
-
-#main {
-	padding-right:5px;
-	padding-left:5px;
-	padding-bottom:6px;
-	height: -moz-fit-content;
-	height: -webkit-fit-content;
-	height: -fit-content
-}
-#main1 {
-	background-color: #847c7c;
-	border:1px black solid;
-	padding: 20px 30px;
-}
-
-#left {
-	text-align:center;
-	padding: 5px 5px;
-	border: 15px solid transparent;
-	border-image-source: url(/images/index/bulletborder.png);
-	border-image-repeat: round;
-	background-color: #847c7c;
-	border-image-slice: 30;
-	height: -moz-fit-content;
-	height: -webkit-fit-content;
-	height: -fit-content
-}
-
-#right {
-	text-align:center;
-	padding: 5px 5px;
-	border: 15px solid transparent;
-	border-image-source: url(/images/index/bulletborder.png);
-	border-image-repeat: round;
-	background-color: #847c7c;
-	border-image-slice: 30;
-	height: -moz-fit-content;
-	height: -webkit-fit-content;
-	height: -fit-content
-}
-
-#banner {
-	width: 60%;
-	height: auto;
-	margin: 5px auto;
-}
-
 /* navbar styles */
 
 #left ul {
