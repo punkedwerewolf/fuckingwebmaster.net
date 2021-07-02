@@ -87,19 +87,20 @@ body {
 	min-width:820px;
 	display: grid;
 	margin: 30px auto;
-	width:65%;
+	width:60%;
 	background-image: url('/images/misc/topborder.png');
 	padding-top: 17px;
 	background-size: 100% 17px;
 	background-repeat: no-repeat;
 }
 
-#main1 {
+#main {
 	height: -moz-fit-content;
 	height: -webkit-fit-content;
 	height: -fit-content;
 	background-color: #847c7c;
 	padding: 20px 30px;
+	text-align: center;
 }
 
 #navi {
@@ -111,6 +112,7 @@ body {
 	padding: 20px 30px;
 	height: 20%;
 	min-height: 350px;
+	text-align: center;
 }
 
 /* navbar styles */
@@ -371,13 +373,9 @@ a:link, a:visited, a:active {
 }
 
 #msg {
-	width: 60%;
-	overflow-x: hidden;
-	margin: 0px auto;
-}
-
-#msg hr {
-	border: .5px solid #3c2b1b;
+	width: 69%;
+	margin: 20px auto;
+	border: dotted 2px #3c2b1b;
 }
 
 /* All stuff below here is for viewing your site on different devices */
