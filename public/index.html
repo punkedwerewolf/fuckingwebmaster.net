@@ -35,13 +35,20 @@
   --headerbg: #696d54;
 }
       </style>
-	  <script>
-	  $(window).load(function() {
-      alert('this site contains autoplay music, animated elements, and vulgar language. if that ain\'t your cup of tea then EXIT THE ESTABLISHMENT');
-});
-	  </script>
+	   <script type="text/javascript" language="javascript">
+    function funinit() {
+        alert("funinit");
+    }
+    function funload() {
+        alert("funload");
+    }
+    function funRender() {
+        alert("funRender");
+    }      
+
+</script>
    </head>
-   <body>
+   <body  oninit="funinit();" onprerender="funRender();" onload="funload();">
    
    <div class="audio">
   <div id="song"></div>
