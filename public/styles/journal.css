@@ -86,7 +86,7 @@ body {
 	grid-row-gap: 0px;
 	min-width:820px;
 	display: grid;
-	margin: 30px auto;
+	margin: 30px auto 0px auto;
 	width:60%;
 	background-image: url('/images/misc/topborder.png');
 	padding-top: 17px;
