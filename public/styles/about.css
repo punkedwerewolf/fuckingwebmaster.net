@@ -121,8 +121,6 @@ body {
 	height: 13em;
 	overflow-x: hidden;
 	overflow-y: hidden;
-	justify-content: center; 
-	display: flex;
 }
 
 .leftblurb { 
@@ -131,8 +129,6 @@ body {
 	height: 21.8em;
 	overflow-x: hidden;
 	overflow-y: hidden;
-	justify-content: center; 
-	display: flex;
 }
 
 .one { 
@@ -181,8 +177,6 @@ body {
 	height: 4em;
 	overflow-x: hidden;
 	overflow-y: hidden;
-	justify-content: center; 
-	display: flex;
 }
 
 #back {
