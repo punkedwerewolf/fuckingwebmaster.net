@@ -359,7 +359,7 @@ audio::-webkit-media-controls-panel {
 
 /* misc styles */
 
-table {
+table, th, td {
 	border: solid 2px #3c2b1b;
 }
 
