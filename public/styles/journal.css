@@ -306,6 +306,16 @@ audio::-webkit-media-controls-panel {
   background: silver;
 }
 
+/* list shit??? */
+
+.year {
+	text-align: left;
+}
+
+.month {
+	text-align: center;
+}
+
 /* misc styles */
 
 ul {
