@@ -169,6 +169,7 @@ body {
 	height: 4em;
 	overflow-x: hidden;
 	overflow-y: hidden;
+	line-height: 5px;
 }
 
 #back {
