@@ -79,8 +79,8 @@ body {
 
 #everything {
 	margin: 30px auto;
-	width:50%;
-	min-width:700px;
+	width:40%;
+	min-width:5700px;
 	background-image: url('/images/misc/topborder.png');
 	padding-top: 17px;
 	background-size: 100% 17px;
@@ -97,8 +97,8 @@ body {
 	border-left: 1px black solid;
 	border-right: 1px black solid;
 	text-align: center;
-	height: 800px;
-	min-height:800px;
+	height: 700px;
+	min-height:700px;
 }
 
 #back {
