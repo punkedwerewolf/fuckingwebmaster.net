@@ -102,7 +102,15 @@ body {
 }
 
 #back {
-		margin: 20px auto;
+	margin: 20px auto;
+}
+
+#top {
+    background-attachment: fixed;
+    background-position: top; 
+	background-repeat: repeat-y;
+	background-image: url('/images/misc/obi.gif');
+		
 }
 
 /* columns */
@@ -125,7 +133,7 @@ body {
 
 /* animations */
 
-img:hover#shake {
+#shake {
   animation: shake 0.5s;
   animation-iteration-count: infinite;
 }
