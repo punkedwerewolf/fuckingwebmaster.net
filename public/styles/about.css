@@ -175,6 +175,24 @@ body {
 		margin: 20px auto;
 }
 
+/* columns */
+
+.flex {
+	display: flex;
+}
+
+.half {
+	width: 45%;
+	margin: 0px auto;
+	order: 1;
+}
+
+.third {
+	width: 30%;
+	margin: 0px auto;
+	order: 1;
+}
+
 /* animations */
 
 .blink {
@@ -367,8 +385,14 @@ th, td {
 	padding: 3px;
 }
 
-.likesdislikes {
-	display: inline-block;
+.likes {
+    list-style-image: url(/images/nukos/upvote.gif);
+	list-style-position: inside;
+}
+
+.dislikes {
+    list-style-image: url(/images/nukos/angrynuko.gif);
+	list-style-position: inside;
 }
 
 a.tip {
