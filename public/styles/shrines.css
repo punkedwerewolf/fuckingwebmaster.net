@@ -102,7 +102,8 @@ body {
 }
 
 #back {
-	margin: 20px auto;
+		margin: 20px auto;
+		animation: link .5s ease-out;
 }
 
 #top {
@@ -134,6 +135,15 @@ body {
 }
 
 /* animations */
+
+@keyframes link {
+  0% {
+	transform: scale(1);
+  }
+  100% {
+	transform: scale(1.5);
+  }
+}
 
 #shake {
   animation: shake 0.5s;

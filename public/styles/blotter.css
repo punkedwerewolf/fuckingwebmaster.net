@@ -106,6 +106,7 @@ body {
 
 #back {
 		margin: 20px auto;
+		animation: link .5s ease-out;
 }
 
 /* navbar styles */
@@ -141,6 +142,15 @@ body {
 }
 
 /* animations */
+
+@keyframes link {
+  0% {
+	transform: scale(1);
+  }
+  100% {
+	transform: scale(1.5);
+  }
+}
 
 img:hover#shake {
   animation: shake 0.5s;

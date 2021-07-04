@@ -118,9 +118,19 @@ body {
 
 #back {
 		margin: 20px auto;
+		animation: link .5s ease-out;
 }
 
 /* animations */
+
+@keyframes link {
+  0% {
+	transform: scale(1);
+  }
+  100% {
+	transform: scale(1.5);
+  }
+}
 
 .blink {
 	animation: blinker 1.5s linear infinite;
