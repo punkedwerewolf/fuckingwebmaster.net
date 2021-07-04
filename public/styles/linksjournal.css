@@ -380,12 +380,9 @@ a:link, a:visited, a:active {
   color: #3c2b1b;
 }
 
-#msg {
-	width: 69%;
-	margin: 20px auto;
-	border: dotted 2px #3c2b1b;
+hr {
+	border: .5px solid #3c2b1b;
 }
-
 /* All stuff below here is for viewing your site on different devices */
 
 @media screen and (max-width: 1536px) {
