@@ -109,6 +109,7 @@ body {
 
 #back:hover {
 	animation: link .5s ease-out forwards;
+	image-rendering:crisp-edges;
 }
 
 #top {
