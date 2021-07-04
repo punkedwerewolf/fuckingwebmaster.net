@@ -206,15 +206,15 @@ body {
 
 @keyframes flip {
 	0% {
-		transform: rotatex(180deg);
+		transform: rotatey(180deg);
 	}
 	
 	50% {
-		transform: rotatex(-180deg);
+		transform: rotatey(-180deg);
 	}
 	
 	100% {
-		transform: rotatex(180deg);
+		transform: rotatey(180deg);
 	}
 }
 
