@@ -330,31 +330,6 @@ a.buttons, a:hover.buttons, a:link.buttons, a:visited.buttons, a:active.buttons 
 	color: #3c3b3a;
 	text-shadow: -2px 2px #b7a99a;
 	font-size: 200%;
-	animation: pulse 1s infinite linear;
-}
-
-.tooltip {
-    border-bottom: 1px dashed;
-    text-decoration: none
-}
-.tooltip:hover {
-    cursor: help;
-    position: relative
-}
-.tooltip span {
-    display: none
-}
-.tooltip:hover span {
-    border: #c0c0c0 1px dotted;
-    padding: 3px;
-    display: block;
-    z-index: 100;
-    background-color: #6d6454;
-    left: 0px;
-    margin: 10px;
-    position: absolute;
-    top: 10px;
-    text-decoration: none
 }
 
 #hitcount {
