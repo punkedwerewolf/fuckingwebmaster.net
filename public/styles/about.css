@@ -114,6 +114,7 @@ body {
 	height: 17.5em;
 	overflow-x: hidden;
 	overflow-y: hidden;
+	padding: 10px;
 }
 
 .topblurb { 
@@ -122,6 +123,7 @@ body {
 	height: 13em;
 	overflow-x: hidden;
 	overflow-y: scroll;
+	padding: 10px;
 }
 
 .leftblurb { 
@@ -130,6 +132,7 @@ body {
 	height: 21.8em;
 	overflow-x: hidden;
 	overflow-y: hidden;
+	padding: 10px;
 }
 
 .one { 
@@ -138,6 +141,7 @@ body {
 	height: 13em;
 	overflow-x: hidden;
 	overflow-y: scroll;
+	padding: 10px;
 }
 
 .two { 
@@ -146,6 +150,7 @@ body {
 	height: 13em;
 	overflow-x: hidden;
 	overflow-y: scroll;
+	padding: 10px;
 }
 
 .three { 
@@ -154,6 +159,7 @@ body {
 	height: 13em;
 	overflow-x: hidden;
 	overflow-y: scroll;
+	padding: 10px;
 }
 
 .four { 
@@ -162,6 +168,7 @@ body {
 	height: 13em;
 	overflow-x: hidden;
 	overflow-y: scroll;
+	padding: 10px;
 }
 
 .userbars { 
