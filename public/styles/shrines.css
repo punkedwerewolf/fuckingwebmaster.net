@@ -122,6 +122,18 @@ body {
 		
 }
 
+.div-wrapper {
+    position: relative;
+    height: auto;
+    width: auto;
+}
+
+.div-wrapper img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
 /* columns */
 
 .flex {
