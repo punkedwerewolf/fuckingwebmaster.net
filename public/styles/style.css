@@ -333,18 +333,18 @@ a.buttons, a:hover.buttons, a:link.buttons, a:visited.buttons, a:active.buttons 
 	animation: pulse 1s infinite linear;
 }
 
-.tip {
+.tooltip {
     border-bottom: 1px dashed;
     text-decoration: none
 }
-.tip:hover {
+.tooltip:hover {
     cursor: help;
     position: relative
 }
-.tip span {
+.tooltip span {
     display: none
 }
-.tip:hover span {
+.tooltip:hover span {
     border: #c0c0c0 1px dotted;
     padding: 3px;
     display: block;
