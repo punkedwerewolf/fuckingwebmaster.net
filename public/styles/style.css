@@ -326,10 +326,10 @@ audio::-webkit-media-controls-panel {
 
 /* misc styles */
 
-a.buttons {
+a.buttons, a:hover.buttons, a:link.buttons, a:visited.buttons, a:active.buttons {
 	color: #3c3b3a;
 	text-shadow: -2px 2px #b7a99a;
-	font-size: 150%
+	font-size: 200%
 }
 
 .tip {
