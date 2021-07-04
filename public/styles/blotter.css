@@ -106,6 +106,7 @@ body {
 
 #back {
 		margin: 20px auto;
+		width: auto;
 }
 
 #back:hover {
