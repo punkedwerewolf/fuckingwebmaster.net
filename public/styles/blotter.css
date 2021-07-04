@@ -106,7 +106,10 @@ body {
 
 #back {
 		margin: 20px auto;
-		animation: link .5s ease-out;
+}
+
+#back:hover {
+	animation: link .5s ease-out;
 }
 
 /* navbar styles */
