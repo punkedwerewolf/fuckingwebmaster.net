@@ -417,6 +417,10 @@ audio::-webkit-media-controls-panel {
 
 /* misc styles */
 
+table {
+	width: 90%;
+}
+
 table, th, td {
 	border: solid 2px #3c2b1b;
 }
