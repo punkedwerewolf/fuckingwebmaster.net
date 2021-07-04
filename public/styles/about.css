@@ -404,13 +404,13 @@ th, td {
 }
 
 .likes {
-    list-style-image: url(/images/nukos/upvote.gif);
+    list-style-image: url(/images/nukos/nuko132.gif);
 	list-style-position: inside;
 	text-align: left;
 }
 
 .dislikes {
-    list-style-image: url(/images/nukos/angrynuko.gif);
+    list-style-image: url(/images/nukos/nuko101.gif);
 	list-style-position: inside;
 	text-align: left;
 }
