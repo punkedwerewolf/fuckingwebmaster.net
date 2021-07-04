@@ -326,24 +326,24 @@ audio::-webkit-media-controls-panel {
 
 /* misc styles */
 
-.buttons {
+a.buttons {
 	color: #3c3b3a;
 	text-shadow: -2px 2px #b7a99a;
 	font-size: 150%
 }
 
-a.tip {
+.tip {
     border-bottom: 1px dashed;
     text-decoration: none
 }
-a.tip:hover {
+.tip:hover {
     cursor: help;
     position: relative
 }
-a.tip span {
+.tip span {
     display: none
 }
-a.tip:hover span {
+.tip:hover span {
     border: #c0c0c0 1px dotted;
     padding: 3px;
     display: block;
