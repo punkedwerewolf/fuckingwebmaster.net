@@ -121,7 +121,7 @@ body {
 }
 
 #back:hover {
-	animation: link .5s ease-out;
+	animation: link .5s ease-out forwards;
 }
 
 /* animations */
