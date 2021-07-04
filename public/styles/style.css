@@ -326,6 +326,12 @@ audio::-webkit-media-controls-panel {
 
 /* misc styles */
 
+.buttons {
+	color: #3c3b3a;
+	text-shadow: -2px 2px #b7a99a;
+	font-size: 150%
+}
+
 a.tip {
     border-bottom: 1px dashed;
     text-decoration: none
