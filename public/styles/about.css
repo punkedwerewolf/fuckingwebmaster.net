@@ -241,13 +241,19 @@ body {
 
 @keyframes move {
   0% {
-    left: 20;
+    left: 0px;
+  }
+  25% {
+    left: 20px;
   }
   50% {
     left: 0px;
   }
+  75% {
+    left: -20px;
+  }
   100% {
-    left: 20;
+    left: 0px;
   }
 }
 
