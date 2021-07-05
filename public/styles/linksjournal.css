@@ -407,6 +407,7 @@ hr {
 #msg {
 	border: 2px dashed #3c2b1b;
 	padding: 10px;
+	margin: 10px 0px;
 }
 /* All stuff below here is for viewing your site on different devices */
 
