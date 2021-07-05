@@ -68,7 +68,7 @@ a, a:hover {
 
 body {
     
-    background-image: url('/images/bgs/striderbg.png');
+    background-image: url('/images/bgs/striderbg.gid');
 	background-size: cover;
 	font-family: 'gamer';
 	color: #3c2b1b;
