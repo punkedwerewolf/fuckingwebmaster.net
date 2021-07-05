@@ -151,6 +151,10 @@ body {
 	font-family: 'pixelflag'; 
 }
 
+#left a:hover {
+	font-style: italic; 
+}
+
 /* columns */
 
 .flex {
