@@ -429,6 +429,11 @@ audio::-webkit-media-controls-panel {
 	display: inline-block;
 }
 
+.kins img:hover {
+	animation: link .5s ease-out forwards;
+	
+}
+
 table, th, td {
 	border: solid 2px #3c2b1b;
 }
