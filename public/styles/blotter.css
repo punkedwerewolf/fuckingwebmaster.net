@@ -103,6 +103,7 @@ body {
 	text-align: center;
 	height: 700px;
 	min-height:700px;
+	max-height:700px;
 }
 
 #back {
