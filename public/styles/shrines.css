@@ -296,6 +296,30 @@ audio::-webkit-media-controls-panel {
 
 /* misc styles */
 
+h1 {
+	font-size: 160%;
+}
+
+h2 {
+	font-size: 150%;
+}
+
+h3 {
+	font-size: 140%;
+}
+
+h4 {
+	font-size: 130%;
+}
+
+h6 {
+	font-size: 120%;
+}
+
+h6 {
+	font-size: 110%;
+}
+
 .flag { 
 	font-family: 'pixelflag';
 }
