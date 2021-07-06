@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <generator>RSS Builder by B!Soft</generator>
+    <title>lucas' RSS</title>
+    <link>https://fuckingwebmaster.net</link>
+    <description>Updates on what's fuckin in my domain!</description>
+    <language>en-us</language>
+    <webMaster>fuckingwebmaster@protonmail.com</webMaster>
+    <image>
+      <title>lucas' RSS</title>
+      <link>https://fuckingwebmaster.net</link>
+      <url>https://fuckingwebmaster.net/images/misc/cozy.png</url>
+      <width>135</width>
+      <height>128</height>
+    </image>
+    <item>
+      <title />
+      <pubDate>Tue, 6 Jul 2021 07:21:29 -0700</pubDate>
+      <description><![CDATA[]]></description>
+    </item>
+  </channel>
+</rss>
