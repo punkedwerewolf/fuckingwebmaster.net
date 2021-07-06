@@ -142,32 +142,36 @@ body {
 	animation: record 1s infinite;
 }
 
-.cover {
+.cover img {
 	position: absolute;
 	left: 0px;
 	top: 0px;
 	z-index: 9;
+	width: 100%;
 }
 
-.cover1 {
+.cover1 img {
 	position: absolute;
 	right: 0px;
 	top: 0px;
 	z-index: 9;
+	width: 100%;
 }
 
-.vinyl {
+.vinyl img {
 	position: absolute;
 	left: 100px;
 	top: 0px;
 	z-index: 8;
+	width: 100%;
 }
 
-.vinyl1 {
+.vinyl1 img {
 	position: absolute;
 	right: 100px;
 	top: 0px;
 	z-index: 8;
+	width: 100%;
 }
 
 /* columns */
@@ -195,7 +199,7 @@ body {
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(359deg);
+    transform: rotate(360deg);
   }
 }
 
