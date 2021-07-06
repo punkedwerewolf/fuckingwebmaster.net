@@ -77,12 +77,9 @@ body {
 }
 
 body {
-	background: 
-    url(/images/bgs/recordbg.gif),
-    url(/images/bgs/recordbg.gif) 50px 50px,
-    url(/images/bgs/recordbg.gif) 0 -25px,
-    url(/images/bgs/recordbg.gif) -25px 0;
-	background-size: 100px 100px, 100px 100px, 50px 50px, 50px 50px;
+	background-image: url(/images/bgs/recordbg.gif);
+	background-size: 6%;
+	background-repeat: repeat;
 	background-color: #b2a597;
 }
 
