@@ -79,9 +79,9 @@ body {
 body {
     background:  
 	url(/images/bgs/recordbg.gif) repeat-x 70% 0%,
-	url(/images/bgs/recordbg.gif) repeat-x 50% 50px,
-	url(/images/bgs/recordbg.gif) repeat-x 70% 100px,
-	url(/images/bgs/recordbg.gif) repeat-x 50% 150px;
+	url(/images/bgs/recordbg.gif) repeat-x 50% 100px,
+	url(/images/bgs/recordbg.gif) repeat-x 70% 200px,
+	url(/images/bgs/recordbg.gif) repeat-x 50% 300px;
 	background-size: 5%;
 }
 
