@@ -157,14 +157,14 @@ body {
 
 .vinyl {
 	position: absolute;
-	left: 30px;
+	left: 100px;
 	top: 0px;
 	z-index: 8;
 }
 
 .vinyl1 {
 	position: absolute;
-	right: 30px;
+	right: 100px;
 	top: 0px;
 	z-index: 8;
 }
