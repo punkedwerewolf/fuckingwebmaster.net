@@ -345,16 +345,6 @@ audio::-webkit-media-controls-panel {
   background: silver;
 }
 
-/* list shit??? */
-
-.year {
-	text-align: left;
-}
-
-.month {
-	text-align: center;
-}
-
 /* misc styles */
 
 h1 {
@@ -427,8 +417,8 @@ hr {
 	border: .5px solid #3c2b1b;
 }
 
-.inline-block {
-	display: inline-block;
+.inline {
+	display: inline;
 }
 /* All stuff below here is for viewing your site on different devices */
 
