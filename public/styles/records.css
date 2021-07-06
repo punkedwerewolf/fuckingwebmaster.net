@@ -134,7 +134,7 @@ body {
 .wrap {
 	position: relative;
 	margin: 10px auto;
-	width: 70%;
+	width: 85%;
 }
 
 .record:hover {
@@ -167,6 +167,24 @@ body {
 	right: 100px;
 	top: 0px;
 	z-index: 8;
+}
+
+/* columns */
+
+.flex {
+	display: flex;
+}
+
+.half {
+	width: 45%;
+	margin: 0px auto;
+	order: 1;
+}
+
+.third {
+	width: 30%;
+	margin: 0px auto;
+	order: 1;
 }
 
 /* animations */
