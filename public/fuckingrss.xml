@@ -15,9 +15,12 @@
       <height>128</height>
     </image>
     <item>
-      <title />
+      <title>record player</title>
       <pubDate>Tue, 6 Jul 2021 07:21:29 -0700</pubDate>
-      <description><![CDATA[]]></description>
+      <link>https://fuckingwebmaster.net/records.html</link>
+      <author>fuckingwebmaster@protonmail.com</author>
+      <category>page update</category>
+      <description><![CDATA[i have added a page where i can share my favorite songs and albums...i like this page lots.........]]></description>
     </item>
   </channel>
 </rss>
