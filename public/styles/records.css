@@ -143,6 +143,7 @@ body {
 
 .record:hover {
 	animation: record 1s infinite;
+	animation: push .5 ease-out forwards;
 }
 
 .cover {
@@ -192,6 +193,15 @@ body {
 }
 
 /* animations */
+
+@keyframes push {
+  0% {
+	transform: translateX(0px);
+  }
+  100% {
+	transform: translateX(25px);
+  }
+}
 
 @keyframes record {
   from {
