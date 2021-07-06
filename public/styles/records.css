@@ -76,7 +76,6 @@ body {
 	overflow-x: hidden;
 }
 
-body { background: repeat-y;
 body {
     background:  
 	url(/images/bgs/recordbg.gif) repeat-x 70% 0%,
@@ -85,7 +84,6 @@ body {
 	url(/images/bgs/recordbg.gif) repeat-x 50% 300px;
 	background-size: 5.5%;
 	background-color: #b2a597;
-}
 }
 
 #everything {
