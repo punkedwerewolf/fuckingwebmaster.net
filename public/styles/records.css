@@ -82,7 +82,8 @@ body {
 	url(/images/bgs/recordbg.gif) repeat-x 50% 100px,
 	url(/images/bgs/recordbg.gif) repeat-x 70% 200px,
 	url(/images/bgs/recordbg.gif) repeat-x 50% 300px;
-	background-size: 5%;
+	background-size: 7%;
+	background-color: #b2a597;
 }
 
 #everything {
