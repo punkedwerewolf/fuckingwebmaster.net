@@ -101,7 +101,7 @@ body {
 	height: -moz-fit-content;
 	height: -webkit-fit-content;
 	height: -fit-content;
-	background-color: #9e948a;
+	background-color: #8a8178;
 	padding: 20px 30px;
 	height: 700px;
 	min-height: 750px;
@@ -111,7 +111,7 @@ body {
 }
 
 #navi {
-	background-color: #9e948a;
+	background-color: #8a8178;
 	border-right:1px black solid;
 	height: 20%;
 	min-height: 350px;
