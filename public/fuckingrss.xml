@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
   <channel>
-    <generator>RSS Builder by B!Soft</generator>
     <title>lucas' RSS</title>
     <link>https://fuckingwebmaster.net</link>
     <description>Updates on what's fuckin in my domain!</description>
@@ -14,13 +13,38 @@
       <width>135</width>
       <height>128</height>
     </image>
+	
+	<item>
+      <title>test</title>
+      <pubDate>Tue, 6 Jul 2021 15:09:00 -0700</pubDate>
+      <link>https://fuckingwebmaster.net</link>
+      <guid>https://fuckingwebmaster.net</guid>
+      <author>fuckingwebmaster@protonmail.com</author>
+      <category>test</category>
+      <description><![CDATA[<h1>hi this is a test</h1><br></br>
+	  <img ="https://fuckingwebmaster.net/images/misc/cozy.png"><br>
+	  <p>this is the description of the test that im doing....hehehe</p>]]></description>
+    </item>
+	
     <item>
       <title>record player</title>
       <pubDate>Tue, 6 Jul 2021 07:21:29 -0700</pubDate>
       <link>https://fuckingwebmaster.net/records.html</link>
+      <guid>https://fuckingwebmaster.net/records.html</guid>
       <author>fuckingwebmaster@protonmail.com</author>
       <category>page update</category>
       <description><![CDATA[i have added a page where i can share my favorite songs and albums...i like this page lots.........]]></description>
     </item>
-  </channel>
+
+<!-- TEMPLATE RSS FEED -->
+<!--item>
+<title>Article 1</title>
+<link>example.com/1</link>
+<guid> example.com/1</guid>
+<pubDate>Mon, 25 Nov 2013 15:10:45 GMT</pubDate>
+<description>My first article.</description>
+</item-->
+</channel>
 </rss>
+
+
