@@ -137,6 +137,8 @@ body {
 	width: 95%;
 	height: auto;
 	border: 2px dashed #3c2b1b;
+	min-height: 200px;
+	padding: 5px;
 }
 
 .record:hover {
