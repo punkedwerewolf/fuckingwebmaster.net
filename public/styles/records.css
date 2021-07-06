@@ -147,7 +147,6 @@ body {
 	left: 0px;
 	top: 0px;
 	z-index: 9;
-	width: 100%;
 }
 
 .cover1 {
@@ -155,7 +154,6 @@ body {
 	right: 0px;
 	top: 0px;
 	z-index: 9;
-	width: 100%;
 }
 
 .vinyl {
@@ -163,7 +161,6 @@ body {
 	left: 100px;
 	top: 0px;
 	z-index: 8;
-	width: 100%;
 }
 
 .vinyl1 {
@@ -171,7 +168,6 @@ body {
 	right: 100px;
 	top: 0px;
 	z-index: 8;
-	width: 100%;
 }
 
 /* columns */
