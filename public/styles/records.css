@@ -141,6 +141,34 @@ body {
 	animation: record 1s infinite;
 }
 
+.cover {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 9;
+}
+
+.cover1 {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	z-index: 9;
+}
+
+.vinyl {
+	position: absolute;
+	left: 30px;
+	top: 0px;
+	z-index: 9;
+}
+
+.vinyl1 {
+	position: absolute;
+	right: 30px;
+	top: 0px;
+	z-index: 9;
+}
+
 /* animations */
 
 @keyframes record {
