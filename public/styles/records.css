@@ -146,7 +146,11 @@ body {
 }
 
 .recordwrap:hover {
-	animation: push .5 ease-in-out forwards;
+	animation: push .5 ease-out forwards;
+}
+
+.recordwrap1:hover {
+	animation: push1 .5 ease-out forwards;
 }
 
 .cover {
@@ -203,6 +207,15 @@ body {
   }
   100% {
 	transform: translateX(3px 30px);
+  }
+}
+
+@keyframes push1 {
+  0% {
+	transform: translateX(0px);
+  }
+  100% {
+	transform: translateX(3px -30px);
   }
 }
 
