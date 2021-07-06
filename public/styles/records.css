@@ -316,6 +316,7 @@ body::before {
 
 audio {
 	width: 200px;
+	height: 20px;
 }
 
 audio::-webkit-media-controls-play-button,
