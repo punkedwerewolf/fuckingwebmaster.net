@@ -134,7 +134,7 @@ body {
 .wrap {
 	position: relative;
 	margin: 10px 0px;
-	width: 
+	width: 70%;
 }
 
 .record:hover {
@@ -427,6 +427,9 @@ hr {
 	border: .5px solid #3c2b1b;
 }
 
+.inline-block {
+	display: inline-block;
+}
 /* All stuff below here is for viewing your site on different devices */
 
 @media screen and (max-width: 1536px) {
