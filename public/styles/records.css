@@ -206,7 +206,7 @@ body {
 	transform: translateX(0px);
   }
   100% {
-	transform: translateX(3px 30px);
+	transform: translateX(-3px 30px);
   }
 }
 
@@ -215,7 +215,7 @@ body {
 	transform: translateX(0px);
   }
   100% {
-	transform: translateX(3px -30px);
+	transform: translateX(-3px -30px);
   }
 }
 
