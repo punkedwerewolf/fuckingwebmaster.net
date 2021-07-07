@@ -405,7 +405,7 @@ hr {
 	border: .5px solid #3c2b1b;
 }
 
-#msg {
+.msg {
 	border: 2px dashed #3c2b1b;
 	padding: 10px;
 	margin: 10px 0px;
