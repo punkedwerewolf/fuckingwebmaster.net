@@ -101,15 +101,15 @@ body {
 	border-left: 1px black solid;
 	border-right: 1px black solid;
 	text-align: center;
-	height: 700px;
-	min-height:700px;
-	max-height:700px;
+	height: 650px;
+	min-height:650px;
+	max-height:650px;
 	overflow-x: hidden;
 	overflow-y: scroll;
 }
 
 #back {
-		margin: 20px auto;
+		margin: 10px auto;
 		width: auto;
 }
 

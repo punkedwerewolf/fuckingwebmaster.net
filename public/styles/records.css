@@ -103,8 +103,9 @@ body {
 	height: -fit-content;
 	background-color: #8a8178;
 	padding: 20px 30px;
-	height: 700px;
-	min-height: 750px;
+	height: 650px;
+	min-height: 650px;
+	max-height:650px;
 	text-align: center;
 	overflow-y: scroll;
 	
@@ -120,7 +121,7 @@ body {
 }
 
 #back {
-		margin: 20px auto;
+		margin: 10px auto;
 		width: auto;
 }
 
