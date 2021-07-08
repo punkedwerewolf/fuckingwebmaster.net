@@ -104,13 +104,12 @@ body {
 }
 
 #back {
-		margin: 10px auto;
+		margin: 20px auto;
 		width: auto;
 }
 
 #back:hover {
 	animation: link .5s ease-out forwards;
-	image-rendering:crisp-edges;
 }
 
 #top {
