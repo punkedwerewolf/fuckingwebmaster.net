@@ -15,6 +15,18 @@
     </image>
 	
 	<item>
+      <title>resources</title>
+      <pubDate>Wed, 7 Jul 2021 18:04:00 -0700</pubDate>
+      <link>https://fuckingwebmaster.net/resources.html</link>
+      <guid>https://fuckingwebmaster.net/resources.html</guid>
+      <author>fuckingwebmaster@protonmail.com</author>
+      <category>page update</category>
+      <description><![CDATA[<h1>new page for all graphics i make</h1><br></br>
+	  <img ="https://fuckingwebmaster.net/images/rss/ssresources.png"><br>
+	  <p>please read my terms of service before using!</p>]]></description>
+    </item>
+	<!--divider-->
+	<item>
       <title>test</title>
       <pubDate>Tue, 6 Jul 2021 15:09:00 -0700</pubDate>
       <link>https://fuckingwebmaster.net</link>
@@ -25,7 +37,7 @@
 	  <img ="https://fuckingwebmaster.net/images/misc/cozy.png"><br>
 	  <p>this is the description of the test that im doing....hehehe</p>]]></description>
     </item>
-	
+	<!--divider-->
     <item>
       <title>record player</title>
       <pubDate>Tue, 6 Jul 2021 07:21:29 -0700</pubDate>
