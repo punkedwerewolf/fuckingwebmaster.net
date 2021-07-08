@@ -149,6 +149,7 @@ body {
 
 #left h3 {
 	font-family: 'pixelflag'; 
+	margin: 0px auto;
 }
 
 #left a:hover {
