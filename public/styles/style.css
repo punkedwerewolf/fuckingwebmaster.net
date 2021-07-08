@@ -141,6 +141,7 @@ body {
 
 #left ul {
 	list-style-type: none;
+	text-align: left;
 }
 
 #left hr {
@@ -154,10 +155,6 @@ body {
 
 #left a:hover {
 	font-style: italic; 
-}
-
-#left {
-	text-align: left;
 }
 
 .sublist {
