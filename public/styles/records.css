@@ -142,7 +142,7 @@ body {
 }
 
 .record:hover {
-	animation: record 1s infinite;
+	animation: record 1s infinite linear;
 }
 
 .recordwrap:hover {
@@ -220,10 +220,10 @@ body {
 }
 
 @keyframes record {
-  from {
+  0% {
     transform: rotate(0deg);
   }
-  to {
+  100% {
     transform: rotate(360deg);
   }
 }
