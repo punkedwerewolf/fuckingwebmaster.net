@@ -15,6 +15,18 @@
     </image>
 	
 	<item>
+      <title>links</title>
+      <pubDate>Mon, 27 Sept 2021 15:02:00 -0700</pubDate>
+      <link>https://fuckingwebmaster.net/online/links.html</link>
+      <guid>https://fuckingwebmaster.net/online/links.html</guid>
+      <author>fuckingwebmaster@protonmail.com</author>
+      <category>page update</category>
+      <description><![CDATA[<h1>updated links</h1><br></br>
+	  <img ="https://fuckingwebmaster.net/images/rss/9272021.png"><br>
+	  <p>new category of links called anonymity. gives links to help you stay anonymous and protect your privacy on the web.</p>]]></description>
+    </item>
+	<!--divider-->
+	<item>
       <title>resources</title>
       <pubDate>Wed, 7 Jul 2021 18:04:00 -0700</pubDate>
       <link>https://fuckingwebmaster.net/resources.html</link>
