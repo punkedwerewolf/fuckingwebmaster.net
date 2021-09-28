@@ -188,7 +188,7 @@ body {
 }
 
 #back:hover {
-	animation: link .5s ease-out forwards;
+	animation: link .5s transform forwards;
 	image-rendering:crisp-edges;
 }
 
@@ -469,7 +469,7 @@ h6 {
 }
 
 .kins img:hover {
-	animation: link .5s ease-out forwards;
+	animation: link .5s transform forwards;
 	
 }
 
