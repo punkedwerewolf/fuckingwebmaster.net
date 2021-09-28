@@ -273,6 +273,10 @@ audio::-webkit-media-controls-panel {
 
 /* misc styles */
 
+input {
+	color: #3c2b1b;
+}
+
 h1 {
 	font-size: 160%;
 }
