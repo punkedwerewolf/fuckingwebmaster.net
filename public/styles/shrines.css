@@ -143,19 +143,25 @@ body {
 
 #shrinetitle {
 	animation: pulse 1s infinite linear;
-	width: 330px;
+	width: 430px;
+	margin: 0px auto;
+    height: 50px;
+    line-height: 75px;
+}
 }
 
 #shrinetitle h1 {
 	font-family: 'gamer';
 	color: #3c3b3a;
     text-shadow: -2px 2px #b7a99a;
+	font-size: 200%;
 }
 
 .leftgun {
 	transform: rotate(-20deg);
 	float: left;
 	display: inline;
+	margin-right: -20px;
 }
 
 
@@ -163,6 +169,7 @@ body {
 	transform: rotate(20deg) rotatey(180deg);
 	float: right;
 	display: inline;
+	margin-left: -20px;
 }
 
 /* columns */
