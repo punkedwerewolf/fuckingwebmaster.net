@@ -181,15 +181,16 @@ body {
 }
 
 #back {
-		margin: 20px auto;
-		width: 337px;
-		height: 30px;
-		line-height: 30px;
+	margin: 20px auto;
+	width: 337px;
+	height: 30px;
+	line-height: 30px;
+	transform: scale(1);
+	transition: transform 0.5s linear;
 }
 
 #back:hover {
 	transform: scale(1.1);
-	transition: transform 0.5s linear;
 	image-rendering:crisp-edges;
 }
 
