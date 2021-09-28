@@ -183,6 +183,8 @@ body {
 #back {
 		margin: 20px auto;
 		width: 337px;
+		height: 30px;
+		line-height; 30px;
 }
 
 #back:hover {
