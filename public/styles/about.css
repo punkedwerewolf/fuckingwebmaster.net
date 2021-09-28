@@ -182,7 +182,7 @@ body {
 
 #back {
 		margin: 20px auto;
-		width: auto;
+		width: 300px;
 }
 
 #back:hover {
@@ -196,11 +196,11 @@ body {
     text-shadow: -2px 2px #b7a99a;
 	font-size: 500%;
 	font-style: italic;
-	margin-left: -20px;
 }
 
 #back img {
 	transform: rotate(-20deg);
+	float: left;
 }
 /* columns */
 
