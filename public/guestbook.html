@@ -20,15 +20,15 @@
                   username: "Question"+new Date().getTime(),
                   content: document.getElementById("email").value
                 }
-				var params = {
+                var params1 = {
                   username: "Question"+new Date().getTime(),
                   content: document.getElementById("name").value
                 }
-				var params = {
+                var params2 = {
                   username: "Question"+new Date().getTime(),
                   content: document.getElementById("message").value
                 }
-                request.send(JSON.stringify(params));
+                request.send(JSON.stringify(params, params1, params2));
                 alert('Hooray! You\'ve sent your hatemail. Feels good, doesn\'t it?')
             }</script>
  
