@@ -194,12 +194,12 @@ body {
 	font-family: 'gamer';
 	color: #3c3b3a;
     text-shadow: -2px 2px #b7a99a;
-	font-size: 200%;
+	font-size: 500%;
 	font-style: italic;
 }
 
 #back img {
-	transform: rotate(-10deg);
+	transform: rotate(-20deg);
 }
 /* columns */
 
