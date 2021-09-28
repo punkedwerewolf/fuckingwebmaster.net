@@ -157,7 +157,7 @@ body {
     line-height: 75px;
 }
 
-#shrinetitle h1 {
+#shrinetitle h1, #shrinetitle1 h1 {
 	font-family: 'gamer';
 	color: #3c3b3a;
     text-shadow: -2px 2px #b7a99a;
