@@ -11,15 +11,31 @@
       <link rel="icon" href="/favicon.ico">
 	  <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
       <script src="/scripts/link.js"></script>
-	  <script>
+	 <!-- <script>
         function handleSend() {
-            console.log("hello")
             var request = new XMLHttpRequest();
             request.open("POST", "https://discord.com/api/webhooks/892441764709953588/e-GnQKjszqkTrAj0wZOs5FlWLfHM1VuAHBAVuIpcqjk-aXgWMn42bjpoozOvkbwgK7wC");
             request.setRequestHeader('Content-type', 'application/json');
             var params = {
                 username: "Question" + new Date().getTime(),
                 content: document.getElementById("question").value
+            }
+            request.send(JSON.stringify(params));
+            alert('Hooray! You\'ve sent your hatemail. Feels good, doesn\'t it?')
+        }
+    </script> -->
+	
+	<script>
+        function handleSend() {
+    var name = document.getElementById("name").value
+    var email = document.getElementById("email").value
+    var message = document.getElementById("message").value
+            var request = new XMLHttpRequest();
+            request.open("POST", "webhooklinkhere");
+            request.setRequestHeader('Content-type', 'application/json');
+            var params = {
+                username: "Question" + new Date().getTime(),
+                content: email + " " + name + " " + message
             }
             request.send(JSON.stringify(params));
             alert('Hooray! You\'ve sent your hatemail. Feels good, doesn\'t it?')
@@ -35,7 +51,11 @@
 	<p>make sure to include your email and website if you have one in your submission.</p><br><br>
 	
 	<form action="">
-		<textarea id="question" rows="4" cols="50" placeholder="type your message"></textarea>
+		<textarea id="email" rows="4" cols="1" placeholder="type your email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"></textarea>
+		<br><br>
+		<textarea id="name" rows="4" cols="1" placeholder="type your name"pattern="[a-zA-Z]{3,}></textarea>
+		<br><br>
+		<textarea id="message" rows="4" cols="50" placeholder="type your message" pattern=".{10,}"></textarea>
 		<br><br>
 	<button id="send" onclick={handleSend()}>Submit</button>
 	</form>
