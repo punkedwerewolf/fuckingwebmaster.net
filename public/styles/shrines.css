@@ -151,14 +151,14 @@ body {
     text-shadow: -2px 2px #b7a99a;
 }
 
-.leftgun img {
+.leftgun {
 	transform: rotate(-20deg);
 	float: left;
 	display: inline;
 }
 
 
-.rightgun img {
+.rightgun {
 	transform: rotate(20deg) rotatey(180deg);
 	float: right;
 	display: inline;
