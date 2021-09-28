@@ -184,7 +184,7 @@ body {
 	margin: 20px auto;
 	width: 337px;
 	height: 40px;
-	vertical-align: middle;
+	line-height: 40px;
 	transform: scale(1);
 	transition: transform 0.5s linear;
 }
@@ -226,16 +226,6 @@ body {
 }
 
 /* animations */
-
-@keyframes link {
-  0% {
-	transform: scale(1);
-  }
-  100% {
-	transform: scale(1.1);
-  }
-}
-
 
 .blink {
 	animation: blinker 1.5s linear infinite;
@@ -470,9 +460,13 @@ h6 {
 	display: inline-block;
 }
 
+.kins img {
+	transform: scale(1);
+	transition: transform 0.5s linear;
+}
+
 .kins img:hover {
-	animation: link .5s ease-out forwards;
-	
+	transform: scale(1.1);
 }
 
 table, th, td {
