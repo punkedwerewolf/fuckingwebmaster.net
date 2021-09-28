@@ -143,6 +143,7 @@ body {
 
 #shrinetitle {
 	animation: pulse 1s infinite linear;
+	width: 330px;
 }
 
 #shrinetitle h1 {
