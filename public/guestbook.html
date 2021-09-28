@@ -51,11 +51,11 @@
 	<p>make sure to include your email and website if you have one in your submission.</p><br><br>
 	
 	<form action="">
-		<textarea id="email" rows="1" cols="50" placeholder="type your email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"></textarea>
+		<textarea id="email" rows="1" cols="50" placeholder="type your email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required></textarea>
 		<br><br>
-		<textarea id="name" rows="1" cols="50" placeholder="type your name"pattern="[a-zA-Z]{3,}"></textarea>
+		<textarea id="name" rows="1" cols="50" placeholder="type your name" pattern="[a-zA-Z]{3,}" required></textarea>
 		<br><br>
-		<textarea id="message" rows="4" cols="50" placeholder="type your message" pattern=".{10,}"></textarea>
+		<textarea id="message" rows="4" cols="50" placeholder="type your message" pattern=".{10,}" required></textarea>
 		<br><br>
 	<button id="send" onclick={handleSend()}>Submit</button>
 	</form>
