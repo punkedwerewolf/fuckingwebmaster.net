@@ -3,7 +3,7 @@
    <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>guestbook</title>
+      <title>hatemail submission</title>
       <link href="/styles/guestbook.css" rel="stylesheet" type="text/css" media="all">
       <meta name="theme-color" content="#948b84">
       <meta name="description" content="all i request is that you don't call me a nigger">
@@ -51,11 +51,11 @@
 	<p>make sure to include your email and website if you have one in your submission.</p><br><br>
 	
 	<form action="">
-		<textarea id="email" rows="1" cols="50" placeholder="type your email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required></textarea>
+		<input id="email" rows="1" cols="50" placeholder="type your email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required></input>
 		<br><br>
-		<textarea id="name" rows="1" cols="50" placeholder="type your name" pattern="[a-zA-Z]{3,}" required></textarea>
+		<input id="name" rows="1" cols="50" placeholder="type your name" pattern="[a-zA-Z]{3,}" required></input>
 		<br><br>
-		<textarea id="message" rows="4" cols="50" placeholder="type your message" pattern=".{10,}" required></textarea>
+		<input id="message" rows="4" cols="50" placeholder="type your message" pattern=".{10,}" required></input>
 		<br><br>
 	<button id="send" onclick={handleSend()}>Submit</button>
 	</form>
