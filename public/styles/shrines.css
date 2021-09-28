@@ -149,6 +149,14 @@ body {
     line-height: 75px;
 }
 
+#shrinetitle1 {
+	animation: pulse 1s infinite linear;
+	width: 530px;
+	margin: 0px auto;
+    height: 50px;
+    line-height: 75px;
+}
+
 #shrinetitle h1 {
 	font-family: 'gamer';
 	color: #3c3b3a;
