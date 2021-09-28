@@ -109,12 +109,31 @@ body {
 }
 
 #back {
-		margin: 20px auto;
-		width: auto;
+	margin: 20px auto;
+	width: 337px;
+	height: 40px;
+	line-height: 55px;
+	transform: scale(1);
+	transition: transform 0.5s linear;
 }
 
 #back:hover {
-	animation: link .5s ease-out forwards;
+	transform: scale(1.1);
+	image-rendering:crisp-edges;
+}
+
+#back p {
+	font-family: 'gamer';
+	color: #3c3b3a;
+    text-shadow: -2px 2px #b7a99a;
+	font-size: 500%;
+	font-style: italic;
+	margin: auto;
+}
+
+#back img {
+	transform: rotate(-20deg);
+	float: left;
 }
 
 /* navbar styles */
@@ -150,15 +169,6 @@ body {
 }
 
 /* animations */
-
-@keyframes link {
-  0% {
-	transform: scale(1);
-  }
-  100% {
-	transform: scale(1.1);
-  }
-}
 
 img:hover#shake {
   animation: shake 0.5s;
