@@ -153,6 +153,7 @@ body {
 	overflow-x: hidden;
 	overflow-y: hidden;
 	line-height: 20px;
+	padding-top: 10px;
 }
 
 #back {
