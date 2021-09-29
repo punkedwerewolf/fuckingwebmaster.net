@@ -68,30 +68,18 @@ body {
 }
 
 .container {
-	width: 70%;
-	padding-bottom: -35px;
-	margin: 50px auto;
-	border: 15px solid transparent;
-	border-image-source: url(/images/index/bulletborder.png);
-	border-image-repeat: round;
-	background-color: #847c7c;
-	border-image-slice: 30;
-	display: grid;
-	grid-template-columns: repeat(10, 1fr);
-	grid-template-rows: repeat(10, 1fr);
-	gap: 3px 3px;
-	grid-auto-flow: row;
-	grid-template-areas:
-    "me me me topblurb topblurb topblurb topblurb topblurb topblurb topblurb"
-    "me me me topblurb topblurb topblurb topblurb topblurb topblurb topblurb"
-    "me me me topblurb topblurb topblurb topblurb topblurb topblurb topblurb"
-    "me me me one one one one two two two"
-    "leftblurb leftblurb leftblurb one one one one two two two"
-    "leftblurb leftblurb leftblurb one one one one two two two"
-    "leftblurb leftblurb leftblurb three three three four four four four"
-    "leftblurb leftblurb leftblurb three three three four four four four"
-    "leftblurb leftblurb leftblurb three three three four four four four"
-    "userbars userbars userbars userbars userbars userbars userbars userbars userbars userbars";
+  display: grid; 
+  grid-auto-columns: 1fr; 
+  grid-template-columns: 1.1fr 1.3fr 0.3fr 1.3fr; 
+  grid-template-rows: 0.6fr 1fr 0.5fr 1.4fr 1.9fr 0.6fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "me topblurb topblurb topblurb"
+    "me topblurb topblurb topblurb"
+    "me one one two"
+    "leftblurb one one two"
+    "leftblurb three four four"
+    "userbars userbars userbars userbars"; 
 }
 
 .me { 
