@@ -35,20 +35,6 @@ footer, header, hgroup, menu, nav, section {
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'pixelflag';
-    src: url('/fonts/pixelflag.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'stars';
-    src: url('/fonts/stars.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
 /* cursor shit */
 
 * {
@@ -227,10 +213,6 @@ body {
 
 /* animations */
 
-.blink {
-	animation: blinker 1.5s linear infinite;
-}
-
 #flip {
 	animation: flip 4s infinite linear;
 }
@@ -268,39 +250,6 @@ body {
   }
   100% {
     transform: translateX(0px);
-  }
-}
-
-#logo {
-  animation: tilt 1s infinite linear;
-  font-size: 200%;
-}
-
-#logo1 {
-  animation: pulse 1s infinite linear;
-}
-
-@keyframes tilt {
-  0% {
-    transform: rotate(-10deg);
-  }
-  50% {
-    transform: rotate(10deg);
-  }
-  100% {
-    transform: rotate(-10deg);
-  }
-}
-
-@keyframes pulse {
-  0% {
-	transform: scale(0.95);
-  }
-  50% {
-	transform: scale(1);
-  }
-  100% {
-	transform: scale(0.95);
   }
 }
 
@@ -489,49 +438,9 @@ th, td {
 	text-align: left;
 }
 
-a.tip {
-    border-bottom: 1px dashed;
-    text-decoration: none
-}
-a.tip:hover {
-    cursor: help;
-    position: relative
-}
-a.tip span {
-    display: none
-}
-a.tip:hover span {
-    border: #c0c0c0 1px dotted;
-    padding: 3px;
-    display: block;
-    z-index: 100;
-    background-color: #6d6454;
-    left: 0px;
-    margin: 10px;
-    position: absolute;
-    top: 10px;
-    text-decoration: none
-}
-
-#hitcount {
-	font-family: stars;
-}
-
-.stars {
-	font-family: stars;
-}
-
-.flag { 
-	font-family: 'pixelflag';
-}
-
 .center {
 	margin-left: auto;
 	margin-right: auto;
-}
-
-.tiny {
-	font-size: 70%;
 }
 
 a {
