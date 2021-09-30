@@ -51,11 +51,11 @@
 	<p>the cool thing about this is that you can use discord emojis when sending your message, for example :grin: or :sob: will translate to regular emojis when i get your hatemail. try them out!</p><br><br>
 	
 	<form action="">
-		<input id="email" name="email" style="height:20px;width:200px;font-family:gamer;font-size:23px;color:black;background-color:#b7b0ab;padding:5px;" placeholder="type your email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required title="Valid email required" required></input>
+		<input id="email" name="email" style="height:20px;" placeholder="type your email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required title="Valid email required" required></input>
 		<br><br>
-		<input id="name" name="name" style="height:20px;width:200px;font-family:gamer;font-size:23px;color:black;background-color:#b7b0ab;padding:5px;" placeholder="type your name" pattern="[a-zA-Z]{3,}" required title="Letters only and at least 4 characters" required></input>
+		<input id="name" name="name" style="height:20px;" placeholder="type your name" pattern="[a-zA-Z]{2,}" required title="Letters only and at least 3 characters" required></input>
 		<br><br>
-		<input id="message" name="message" style="height:50px;width:200px;font-family:gamer;font-size:23px;color:black;background-color:#b7b0ab;padding:5px;" placeholder="type your message" pattern=".{10,}" required title="10 characters minimum" required></input>
+		<input id="message" name="message" style="height:50px;" placeholder="type your message" pattern=".{10,}" required title="10 characters minimum" required></input>
 		<br><br>
 	<button id="send" onclick={handleSend()}>Submit</button>
 	</form>

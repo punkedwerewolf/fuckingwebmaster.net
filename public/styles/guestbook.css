@@ -141,6 +141,12 @@ body::before {
 
 input {
 	color: #3c2b1b;
+	width:200px;
+	font-family:gamer;
+	font-size:23px;
+	color:black;
+	background-color:#b7b0ab;
+	padding:5px;
 }
 
 h1 {
