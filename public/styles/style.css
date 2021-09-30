@@ -137,6 +137,12 @@ body {
 	margin: 5px auto;
 }
 
+.setup {
+	padding: 1%;
+	border:1px black solid;
+	margin: 0px auto;
+}
+
 /* navbar styles */
 
 #left ul {
