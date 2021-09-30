@@ -1,18 +1,10 @@
  /*cursor shit*/
- 
-* {
-   cursor: url('/images/shrines/misato/cursor.png'), auto;
-}
 
-body {
+*, body, html {
    cursor: url('/images/shrines/misato/cursor.png'), auto;
 }
 
 iframe, a, a:hover {
-  cursor: url('/images/shrines/misato/link.png'), auto;
-}
-
-img>a:hover {
   cursor: url('/images/shrines/misato/link.png'), auto;
 }
 
@@ -97,23 +89,22 @@ body {
 
 /*grid layout*/
 
-.grid-container {
+.container {
+	height: 1000px;
   display: grid;
-  grid-template-columns: repeat(10, 1fr);
-  grid-template-rows: repeat(9, 1fr);
+  grid-template-columns: 0.8fr 2.1fr 0.2fr 0.9fr;
+  grid-template-rows: 1fr 0.4fr 0.9fr repeat(2, 0.5fr) 1fr;
+  grid-auto-columns: 1fr;
   gap: 5px 5px;
+  grid-auto-flow: row;
   grid-template-areas:
-    "lefttop lefttop header header header header header header righttop righttop"
-    "lefttop lefttop header header header header header header righttop righttop"
-    "lefttop lefttop centerstuff centerstuff centerstuff centerstuff centerstuff right right right"
-    "leftbottom leftbottom centerstuff centerstuff centerstuff centerstuff centerstuff right right right"
-    "leftbottom leftbottom centerstuff centerstuff centerstuff centerstuff centerstuff right right right"
-    "leftbottom leftbottom . . . . . right right right"
-    "marqueefun marqueefun marqueefun marqueefun marqueefun marqueefun marqueefun marqueefun marqueefun marqueefun"
-    "bottom bottom bottom bottom bottom bottom bottom bottom bottom bottom"
-    "bottom bottom bottom bottom bottom bottom bottom bottom bottom bottom";
+    "lefttop header header righttop"
+    "lefttop centerstuff right right"
+    "leftbottom centerstuff right right"
+    "leftbottom . right right"
+    "marqueefun marqueefun marqueefun marqueefun"
+    "bottom bottom bottom bottom";
 }
-
 .header { 
   grid-area: header;
   border: 4px #895857 solid;
@@ -324,52 +315,37 @@ ul {
   color: #d3a295;
 }
 
+
 /* All stuff below here is for viewing your site on different devices */
 
 @media screen and (max-width: 1536px) {
-    #main {
-	zoom: 70%;
-}
+	body { zoom: 80%; }
 }
 
 @media screen and (max-width: 1440px) {
-    #main {
-	zoom: 65%;
-}
+	body { zoom: 75%; }
 }
 
 @media screen and (max-width: 1366px) {
-    #main {
-	zoom: 60%;
-}
+	body { zoom: 70%; }
 }
 
 @media screen and (max-width: 1280px) {
-    #main {
-	zoom: 55%;
-}
+	body { zoom: 65%; }
 }
 
 @media screen and (max-width: 1024px) {
-    #main {
-	zoom: 50%;
-}
+	body { zoom: 60%; }
 }
 
 @media screen and (max-width: 992px) {
-    #main {
-	zoom: 45%;
-}
+	body { zoom: 55%; }
 }
 
 @media screen and (max-width: 800px) {
-    #main {
-	zoom: 40%;
-}
+	body { zoom: 50%; }
 }
 
 @media screen and (max-width: 600px) {
-  #main {
-	zoom: 35%;
-}
+	body { zoom: 45%; }
 }
