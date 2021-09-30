@@ -105,6 +105,7 @@ body {
     "marqueefun marqueefun marqueefun marqueefun"
     "bottom bottom bottom bottom";
 }
+
 .header { 
   grid-area: header;
   border: 4px #895857 solid;
