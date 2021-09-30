@@ -92,7 +92,6 @@ body {
 	max-height:680px;
 	text-align: center;
 	overflow-y: scroll;
-	
 }
 
 #navi {
@@ -102,6 +101,16 @@ body {
 	min-height: 350px;
 	text-align: center;
 	overflow-y: scroll;
+}
+
+#online {
+	font-size: 300%;
+	font-family: 'gamer';
+	color: #3c3b3a;
+    text-shadow: -2px 2px #b7a99a;
+	font-style: italic;
+	margin: auto;
+	animation: pulse 1s infinite linear;
 }
 
 #back {
