@@ -11,7 +11,7 @@
       <link rel="icon" href="/favicon.ico">
 	  <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
       <script src="/scripts/link.js"></script>
-	 <!-- <script>
+	 <script>
         function handleSend() {
             var request = new XMLHttpRequest();
             request.open("POST", "");
@@ -23,7 +23,7 @@
             request.send(JSON.stringify(params));
             alert('Hooray! You\'ve sent your hatemail. Feels good, doesn\'t it?')
         }
-    </script> -->
+    </script>
 	
 	<script>
         function handleSend() {
@@ -31,7 +31,7 @@
     var email = document.getElementById("email").value
     var message = document.getElementById("message").value
             var request = new XMLHttpRequest();
-            request.open("POST", "https://discord.com/api/webhooks/893293624337514537/4h2gBD-4FwP00H5iIc8wtZVo64822HzDab4fF8NSS3PS099jcJiFD41HA9KY9rDcfzw7");
+            request.open("POST", "https://discord.com/api/webhooks/961170429270179900/RrQSEyLG40nuYpW2Sk4mkeh_besc3Pc-mdsBTz2jHcPKmIFcxXslCf0rHaWzThSQ5oBJ");
             request.setRequestHeader('Content-type', 'application/json');
             var params = {
                 username: "Question" + new Date().getTime(),
